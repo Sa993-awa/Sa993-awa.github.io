@@ -3,7 +3,7 @@ layout: about
 title: About
 ---
 
-### About
+
 
 ## Hi, WELCOME TO MY E-PORTIFILIO.
 
