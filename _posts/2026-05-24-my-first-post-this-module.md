@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Launch into Computing April 2026 B- My First-Module
+title: Launch into Computing April 2026 B- My - First - Module
 subtitle: Starting my journey in Information Technology
 categories: Learning
 tags: [Python, github, Computing Programming]
