@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MY SECOND MODULE
+title: My Second Module
 subtitle: Continuing my journey in IT
 categories: Learning
 tags: [code]
