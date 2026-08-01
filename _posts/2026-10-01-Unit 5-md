@@ -1,0 +1,7 @@
+---
+layout: post
+title: Design Patterns III – Behavioural Patterns
+subtitle: Managing Object Interactions
+categories: Design Patterns
+tags:[strategy, observer, command, state]
+---
