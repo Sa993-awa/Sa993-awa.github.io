@@ -24,7 +24,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: From Education To Information Technology
+title: From Education To IT
 email: sa26977@essex.ac.uk
 author: Sali Alawabdi
 
