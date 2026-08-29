@@ -42,7 +42,8 @@ author: Sali Alawabdi
 #
 copyright: "Unpublished Work (cleft) {currentYear} {author}"
 
-description: A transition into Information Technology, building skills in programming, digital technologies, and IT management.
+description: Documenting my journey into Information Technology.
+             From programming fundamentals to software design.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
