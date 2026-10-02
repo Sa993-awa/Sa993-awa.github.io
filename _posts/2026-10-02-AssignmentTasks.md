@@ -50,9 +50,10 @@ For each learning objectives, provide examples from your practical work (e.g., c
  In unit 9, in ShopEase I used PaymentStartegy for interchangeable payment methods.*
  
  *In Seminar 4, I built a coffee shop application and I used Decorator to extend objects without changing the, I added milk and        chocolate to a coffee without modifying RegularCoffee. 
- Also, in unit 12 , DiscountDecorator and ShippingDecorator built up the order price step by step.*
+ Also, in unit 12 , DiscountDecorator and ShippingDecorator built up the order price step by step.*   
+ 
 
- *In unit 12, I applied visitor pattern, which enhance extensibility, because ProductReportVisitor and ProductDiscountVisitor added    reporting operations without editing Product.*
+ *In unit 12, I applied visitor pattern, which enhance extensibility, because ProductReportVisitor and ProductDiscountVisitor added    reporting operations without editing Product.* *I also applied Abstract Factory in ShopEase ,which supported scalability by creating matching Web and Mobile UI components.*
 
 *2- AI-Oriented Pattern, in my capstone project. I used ModelRegistery that stores model versions and FeatureStore for reusable user feature.*
 
