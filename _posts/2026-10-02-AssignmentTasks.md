@@ -8,7 +8,6 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 
 Task1: Summarise Key Learning Outcomes:   
 
-
 Reflect on Learning Objectives: Provide a summary of how you have achieved the module’s learning objectives:   
 
 Understand and implement secure coding practices in software development.   
@@ -57,6 +56,6 @@ For each learning objectives, provide examples from your practical work (e.g., c
 
 *2- AI-Oriented Pattern, in my capstone project. I used ModelRegistery that stores model versions and FeatureStore for reusable user feature.*
 
- *In ShopeEase I used a layered architecture,repository, caching and bcrypt to make the system secure, this feature make the system suitable for Large-scale architecture.*
+ *In ShopeEase I used a layered architecture,repository, caching and bcrypt to make the system secure, this feature make the system    suitable for Large-scale architecture.*
 
- *AI-ready and flexible solutions, RecommendationService relies on  a RecommendationModel interface, in this case the model can be replaced without changing the service. *
+ *AI-ready and flexible solutions, RecommendationService relies on  a RecommendationModel interface, in this case the model can be      replaced without changing the service. *
