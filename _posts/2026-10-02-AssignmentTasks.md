@@ -38,7 +38,7 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 
       -Link to Practical Work:   
 
-       -For each learning objectives, provide examples from your practical work (e.g., coding exercises, case studies, Capstone               Project) that demonstrate your understanding and application of the concepts.   
+       -For each learning objectives, provide examples from your practical work (e.g., coding exercises, case studies, Capstone                Project) that demonstrate your understanding and application of the concepts.   
 
 
 *1- Secure coding: starting in Unit 7, I used bcrypt hashing to secure an authentication system and I applied a password policy , input validation and limited login attempts. peer`s feedback  after testing my code ,helped me to add username uniqueness check. After that ,I used this in unit 10 to apply TDD in my code.*
