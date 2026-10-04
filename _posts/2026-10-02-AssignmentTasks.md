@@ -26,7 +26,7 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 
         -Scalability and extensibility in complex systems   
 
-      2.\ AI-orientated OO patterns (conceptual awareness): briefly note exposure to AI-inspired architectural patterns such as:   
+      2.\ AI-orientated OO patterns (conceptual awareness): briefly note exposure to AI-inspired architectural patterns such            as:   
 
           - Model Registry (managing lifecycle.versionin of ML models).   
 
@@ -39,6 +39,8 @@ tags: [Task1, Task2 ,Task3, Task4 ]
       -Link to Practical Work:   
 
        -For each learning objectives, provide examples from your practical work (e.g., coding exercises, case studies,               Capstone Project) that demonstrate your understanding and application of the concepts.    
+
+       
        
 
                   ******************************************************************    
