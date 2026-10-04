@@ -72,50 +72,52 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 
 #### Include Key Artefacts: Include the following artefacts developed during the module:   
 
-1.\ Coding Exercises:   
+    1.\ Coding Exercises:   
 
-     -Include your solutions to coding tasks (e.g., thread-safe code in Python, implementation of design patterns).  
+        -Include your solutions to coding tasks (e.g., thread-safe code in Python, implementation of design patterns).  
 
-2.\ Advanced Design Patterns (Practical): Add artefacts demonstrating:   
+    2.\ Advanced Design Patterns (Practical): Add artefacts demonstrating:   
 
-      -Strategy Pattern: Interchangable algorithms (e.g., AI decision logic, pricing rules).   
+        -Strategy Pattern: Interchangable algorithms (e.g., AI decision logic, pricing rules).   
 
-      -Decorator Pattern: Dynamically extending functionality (e.g., logging, security layers).   
+        -Decorator Pattern: Dynamically extending functionality (e.g., logging, security layers).   
   
-      -Visitor Pattern: Seperating algorithms from object structures (e.g., analytics/reporting).   
+        -Visitor Pattern: Seperating algorithms from object structures (e.g., analytics/reporting).   
 
-      -Abstract Factory: Family of related objects (e.g., switching AI service providers).   
+         -Abstract Factory: Family of related objects (e.g., switching AI service providers).   
 
-   For each artefact, describe:    
-   Why the pattern was chosen.   
-   How it improves maintainability, extensibility or testability.      
+            For each artefact, describe:    
+            Why the pattern was chosen.   
+            How it improves maintainability, extensibility or testability.      
 
-3.\ Testing - Mocking and AI-Driven Testing (Practical): Include:  
+    3.\ Testing - Mocking and AI-Driven Testing (Practical): Include:  
 
-    -Use of mocking frameworks to:    
-       Isolate classes.
-       Test AI-dependent components without live models or APIs.    
+             Use of mocking frameworks to:    
+                 - Isolate classes.
+                 - Test AI-dependent components without live models or APIs.    
        
-    - Reflection on AI-assisted testing tools:
-      Test-case generation.
-      Intelligent edge-case discovery.
-      Regression testing support.
-      Frame testing as supporting OO quality, not replacing engineering judgement.   
+         - Reflection on AI-assisted testing tools:
+             Test-case generation.
+             Intelligent edge-case discovery.
+             Regression testing support.
+              Frame testing as supporting OO quality, not replacing engineering judgement.   
+              
 
-4.\ Case Studies/Capstone Project: Briefly highlight:    
-     -How design patterns supported scalable architecture.      
-     -How testing strategies ensured robustness and reliability.    
-     -How AI-readiness was considered at design level (extensibility, abstraction, interfaces).        
+    4.\ Case Studies/Capstone Project: Briefly highlight:    
+        -How design patterns supported scalable architecture.      
+        -How testing strategies ensured robustness and reliability.    
+        -How AI-readiness was considered at design level (extensibility, abstraction, interfaces).   
+        
 
-5.\ Artefact Description (Critical Commentary): For each artefact, provide a brief description explaining:
-    -The object.    
-    -Orientated principles and techniques used.     
-    -Challenges faced and how you overcame them.     
+    5.\ Artefact Description (Critical Commentary): For each artefact, provide a brief description explaining:
+         -The object.    
+         -Orientated principles and techniques used.     
+         -Challenges faced and how you overcame them.     
     
-    -Explicitly mention:    
-    -Pattern selection trade-offs.     
-    -Testing complexity.     
-    -Managing abstraction vs over-engineering.     
+          Explicitly mention:    
+            -Pattern selection trade-offs.     
+            -Testing complexity.     
+            -Managing abstraction vs over-engineering.     
     
     
                 *************************************************************************    
