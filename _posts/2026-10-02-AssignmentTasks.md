@@ -43,6 +43,7 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 
                   ******************************************************************    
                   
+                  
 *1- Secure coding: starting in Unit 7, I used bcrypt hashing to secure an authentication system and I applied a password policy , input validation and limited login attempts. peer`s feedback  after testing my code ,helped me to add username uniqueness check. After that ,I used this in unit 10 to apply TDD in my code.*
  
  *In advance OOP, in unit 2 ,I applied a simple online shopping system using SOLID, and I refactored the code by following the steps.
