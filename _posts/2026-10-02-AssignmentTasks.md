@@ -377,7 +377,7 @@ assert order.checkout(100) is True
 
 *ShopEase capstone (Unit 12). I used the four OOP principles, SOLID, Dependency Injection and several patterns. My challenge was combining many patterns in one system. I overcame it by organising the code into layers and services.*    
 
-### Refletion:   
+### Reflection:   
 
  ##### Pattern selection trade-offs:       
 
