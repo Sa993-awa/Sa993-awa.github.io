@@ -10,15 +10,15 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 
 #### Reflect on Learning Objectives: Provide a summary of how you have achieved the module’s learning objectives:   
 
-    -Understand and implement secure coding practices in software development.   
+     -Understand and implement secure coding practices in software development.   
 
-    -Apply advanced object – oriented principles to solve complex software problems.   
+     -Apply advanced object – oriented principles to solve complex software problems.   
 
-    -Utilise design patterns to create reusable, maintainable, and flexible code.  
+     -Utilise design patterns to create reusable, maintainable, and flexible code.  
 
-       -Briefly extend your reflection to include:   
+      -Briefly extend your reflection to include:   
 
-        1.\ Advanced design pattterns (practical application):mention hands-on use of Strategy, Decorator, Visitor and Abstract                   Factory, explicitly linking them to:   
+        1.\ Advanced design pattterns (practical application):mention hands-on use of Strategy, Decorator, Visitor and                Abstract Factory, explicitly linking them to:   
 
          -Runtime behavioural flexibility.   
 
@@ -36,9 +36,9 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 
     Develop software solutions that are adaptable for AI models and efficient for data science tasks.   
 
-      -Link to Practical Work:   
+       -Link to Practical Work:   
 
-       -For each learning objectives, provide examples from your practical work (e.g., coding exercises, case studies,               Capstone Project) that demonstrate your understanding and application of the concepts.    
+        -For each learning objectives, provide examples from your practical work (e.g., coding exercises, case studies,               Capstone Project) that demonstrate your understanding and application of the concepts.    
 
        
        
@@ -134,7 +134,7 @@ with first.lock:
 ```
 
 
-*In unit 7, password is hashed with bcrypt before storing and duplicate usernames are rejected. which supported secure authentication.* 
+*In unit 7, password is hashed with bcrypt before storing and duplicate usernames are rejected. Which supported secure authentication.* 
 
 ```python 
 
@@ -147,7 +147,7 @@ class User:
 
 
 
-*in unit 10, I also used hashed to secure the system.*
+*In unit 10, I also used hashed to secure the system.*
 
 ```python
 class UserManagment:
@@ -216,7 +216,7 @@ def accept(self, visitor):
 *I used Abstract Factory in ShopEase, so Web and Mobile UI components considering as matching families.*
 
 
-*3/.- I used uniittes.mock to isolated classes and replace real dependencies:*
+*3/.- I used unittest.mock to isolated classes and replace real dependencies:*
 ```python 
 mock_payment = Mock(spec=PaymentStrategy)
 mock_payment.pay.return_value = True
@@ -242,7 +242,7 @@ assert order.checkout(100) is True
 *ModelRegistry, FeatureStore and the RecommendationModel Interface mean AI models can be replaced or added without rewriting the service.*
 
 *5/.- Critical Commentary:*
-*in unit (6), I used encapsulation , kept to the Single Responsibility Principle and used locks. My challenges were how to apply the threads correctly in my code and how to manage multiple threads accessing the same bank account .I read the book(Advanced Python Programming) Nguyen (2022), and I learned to use join() and start() methods .I also used AI to verify the correct implementation and check that the threading was applied correctly. Another issue I faced were a Type Error caused by importing a module instead of class , and threading.thread written in lowercase.. I fixed both by reading the error and working on them.*
+*In unit (6), I used encapsulation , kept to the Single Responsibility Principle and used locks. My challenges were how to apply the threads correctly in my code and how to manage multiple threads accessing the same bank account .I read the book(Advanced Python Programming) Nguyen (2022), and I learned to use join() and start() methods .I also used AI to verify the correct implementation and check that the threading was applied correctly. Another issue I faced were a Type Error caused by importing a module instead of class , and threading.thread written in lowercase.. I fixed both by reading the error and working on them.*
 
 *In units 7 and 10 where Secure authentication implemented . I used encapsulation, hashing and TDD. My challenge was that I hadn't installed bcrypt at first, and peer testing exposed the duplicate-username problem. I installed bcrypt and added the missing checks. Also, I used SonarQube to detect the error.*
 
