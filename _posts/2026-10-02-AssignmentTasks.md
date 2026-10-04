@@ -68,7 +68,7 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 
 ******-------------------------------------------------------------------------------------------------******   
 
- ### Task2: Showcase Artefacts:
+ ### Task2 : Showcase Artefacts:
 
 #### Include Key Artefacts: Include the following artefacts developed during the module:   
 
@@ -78,13 +78,13 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 
 2.\ Advanced Design Patterns (Practical): Add artefacts demonstrating:   
 
-    -Strategy Pattern: Interchangable algorithms (e.g., AI decision logic, pricing rules).   
+      -Strategy Pattern: Interchangable algorithms (e.g., AI decision logic, pricing rules).   
 
-   -Decorator Pattern: Dynamically extending functionality (e.g., logging, security layers).   
+      -Decorator Pattern: Dynamically extending functionality (e.g., logging, security layers).   
   
-   -Visitor Pattern: Seperating algorithms from object structures (e.g., analytics/reporting).   
+      -Visitor Pattern: Seperating algorithms from object structures (e.g., analytics/reporting).   
 
-  -Abstract Factory: Family of related objects (e.g., switching AI service providers).   
+      -Abstract Factory: Family of related objects (e.g., switching AI service providers).   
 
    For each artefact, describe:    
    Why the pattern was chosen.   
