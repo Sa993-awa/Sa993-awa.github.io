@@ -8,7 +8,7 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 
 ### Task1: Summarise Key Learning Outcomes:   
 
-#### Reflect on Learning Objectives: Provide a summary of how you have achieved the module’s learning objectives:   
+Reflect on Learning Objectives: Provide a summary of how you have achieved the module’s learning objectives:   
 
      -Understand and implement secure coding practices in software development.   
 
@@ -48,21 +48,22 @@ tags: [Task1, Task2 ,Task3, Task4 ]
                   
 *1- Secure coding: starting in Unit 7, I used bcrypt hashing to secure an authentication system and I applied a password policy , input validation and limited login attempts. peer`s feedback  after testing my code ,helped me to add username uniqueness check. After that ,I used this in unit 10 to apply TDD in my code.*
  
- *In advance OOP, in unit 2 ,I applied a simple online shopping system using SOLID, and I refactored the code by following the steps.
- In unit 6, I used OOP in built thread safe banking with locks and lock ordering. In unit 11 , I used Dependency  Injection to         decouple UserManager from EmailService.* 
+ *In advance Object Oriented Principles: In unit 2 ,I refactored  a simple online shopping system using SOLID, so Order depended on abstract PaymentMethod anD DiscountMethod classes rather than specific ones.   
+ 
+ In unit 6, I built thread safe banking with locks and lock ordering using Object Oriented Principle and applying encapsulation. In unit 11 , I used Dependency  Injection to decouple UserManager from EmailService.* 
 
- *Design patterns, in unit 5 after Donald`s feedback I added  set_strategy(), which let one PaymentProcessor switch between            creditcard,crypto and bank transfer during checkout. Also, in unit 8, I moved discount rules into separate strategy classes.         
+ *Design patterns: In unit 5 after Donald`s feedback I added  set_strategy(),   which let one PaymentProcessor switch between creditcard,crypto and bank transfer during checkout. Also, in unit 8, I moved discount rules into separate strategy classes.         
  In unit 9, in ShopEase I used PaymentStartegy for interchangeable payment methods.*
  
- *In Seminar 4, I built a coffee shop application and I used Decorator to extend objects without changing the, I added milk and        chocolate to a coffee without modifying RegularCoffee. 
- Also, in unit 12 , DiscountDecorator and ShippingDecorator built up the order price step by step.*   
+ *In Seminar 4, I built a coffee shop application and I used Decorator to extend objects without changing the, I added milk and chocolate to a coffee without modifying RegularCoffee. 
+ *Also, in unit 12 , DiscountDecorator and ShippingDecorator built up the order price step by step.*   
  
 
- *In unit 12, I applied visitor pattern, which enhance extensibility, because ProductReportVisitor and ProductDiscountVisitor added    reporting operations without editing Product.* *I also applied Abstract Factory in ShopEase ,which supported scalability by creating matching Web and Mobile UI components.*
+ *In unit 12, I applied visitor pattern, which enhance extensibility, because ProductReportVisitor and ProductDiscountVisitor added  reporting operations without editing Product.* *I also applied Abstract Factory in ShopEase ,which supported scalability by creating matching Web and Mobile UI components.*
 
-*2- AI-Oriented Pattern, in my capstone project. I used ModelRegistery that stores model versions and FeatureStore for reusable user feature.*
+*2- AI-Oriented Pattern, in my capstone project. I used ModelRegistery that stores model versions and FeatureStore for reusable user feature.*At first, my registry stored only the model`s name as text, and the output showed nothing about the model, I corrected it and the output run and show the model and its version from the registry.
 
- *In ShopeEase I used a layered architecture,repository, caching and bcrypt to make the system secure, this feature make the system    suitable for Large-scale architecture.*
+ *In ShopeEase I used a layered architecture with repository, caching and bcrypt to make the system secure, this feature make the system suitable for Large-scale architecture.*
 
  *AI-ready and flexible solutions, RecommendationService relies on  a RecommendationModel interface, in this case the model can be replaced without changing the service. *
 
