@@ -64,9 +64,9 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 
  *In ShopeEase I used a layered architecture,repository, caching and bcrypt to make the system secure, this feature make the system    suitable for Large-scale architecture.*
 
- *AI-ready and flexible solutions, RecommendationService relies on  a RecommendationModel interface, in this case the model can be      replaced without changing the service. *
+ *AI-ready and flexible solutions, RecommendationService relies on  a RecommendationModel interface, in this case the model can be replaced without changing the service. *
 
-******-------------------------------------------------------------------------------------------------******   
+******--------------------------------------------------------------------------******   
 
  ### Task2 : Showcase Artefacts:
 
@@ -145,7 +145,6 @@ class User:
         self._username=username
         self._password= bcrypt.hashpw(password.encode(),bcrypt.gensalt())
 ```
-
 
 
 
@@ -384,14 +383,14 @@ assert order.checkout(100) is True
 *ModelRegistry, FeatureStore and the RecommendationModel Interface mean AI models can be replaced or added without rewriting the service.*
 
 *5/.- Critical Commentary:*
-*In unit (6), I used encapsulation , kept to the Single Responsibility Principle and used locks. My challenges were how to apply the threads correctly in my code and how to manage multiple threads accessing the same bank account .I read the book(Advanced Python Programming) Nguyen (2022), and I learned to use join() and start() methods .I also used AI to verify the correct implementation and check that the threading was applied correctly. Another issue I faced were a Type Error caused by importing a module instead of class , and threading.thread written in lowercase.. I fixed both by reading the error and working on them.*
+*In unit (6), I used encapsulation , kept to the Single Responsibility Principle and used locks. My challenges were how to apply the threads correctly in my code and how to manage multiple threads accessing the same bank account .I read the book(Advanced Python Programming) Nguyen (2022), and I learned to use join() and start() methods . Another issue I faced were a Type Error caused by importing a module instead of class , and threading.thread written in lowercase. I fixed both by reading the error and working on them.*
 
 *In units 7 and 10 where Secure authentication implemented . I used encapsulation, hashing and TDD. My challenge was that I hadn't installed bcrypt at first, and peer testing exposed the duplicate-username problem. I installed bcrypt and added the missing checks. Also, I used SonarQube to detect the error.*
 
 
 *ShopEase capstone (Unit 12). I used the four OOP principles, SOLID, Dependency Injection and several patterns. My challenge was combining many patterns in one system. I overcame it by organising the code into layers and services.*
 
-*6/.- Pattern selection trade-offs: In Unit 8, named constants were simpler, but Strategy was more extensible. I learned to choose a pattern only when the system is likely to grow. My peer`s initial post was very helpful and help me to understand the way to start writing my own code.*
+*6/. Pattern selection trade-offs: In Unit 8, named constants were simpler, but Strategy was more extensible. I learned to choose a pattern only when the system is likely to grow. My peer`s initial post was very helpful and help me to understand the way to start writing my own code.*
 
 *Testing complexity: In unit 10 tests contained typos and wrong assertions, which showed me that tests need the same care as production code.*
 
