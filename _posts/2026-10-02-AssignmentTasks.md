@@ -50,7 +50,7 @@ Reflect on Learning Objectives: Provide a summary of how you have achieved the m
  
  *In advance Object Oriented Principles: In unit 2 ,I refactored  a simple online shopping system using SOLID, so Order depended on abstract PaymentMethod anD DiscountMethod classes rather than specific ones.   
  
- In unit 6, I built thread safe banking with locks and lock ordering using Object Oriented Principle and applying encapsulation. In unit 11 , I used Dependency  Injection to decouple UserManager from EmailService.* 
+* In unit 6, I built thread safe banking with locks and lock ordering using Object Oriented Principle and applying encapsulation. In unit 11 , I used Dependency  Injection to decouple UserManager from EmailService.* 
 
  *Design patterns: In unit 5 after Donald`s feedback I added  set_strategy(),   which let one PaymentProcessor switch between creditcard,crypto and bank transfer during checkout. Also, in unit 8, I moved discount rules into separate strategy classes.         
  In unit 9, in ShopEase I used PaymentStartegy for interchangeable payment methods.*
@@ -123,8 +123,12 @@ Reflect on Learning Objectives: Provide a summary of how you have achieved the m
     
                 *************************************************************************    
                 
+### Coding Exercises:     
 
-  *1/. - In unit 6 : Thread-safe banking system , each account has its own lock. preventing  deadlock by applying transfer acquire locks in consistent order.*    
+##### Thread-safe banking system:    
+
+
+  *1/. In unit 6 : Thread-safe banking system , each account has its own lock. preventing  deadlock by applying transfer acquire locks in consistent order.*    
   
 
 ```Python
@@ -136,6 +140,7 @@ with first.lock:
 
 ```
 
+##### Secure authentication :    
 
 *In unit 7, password is hashed with bcrypt before storing and duplicate usernames are rejected. Which supported secure authentication.* 
 
@@ -160,6 +165,7 @@ class UserManagment:
 ```
 
 
+##### Dependency Injection:   
 
 *Dependency Injection had applied in unit 11, UserManager receives its NotificationService from outside instead of creating EmailService itself.*   
 
@@ -189,6 +195,10 @@ class UserManager:
         self.notifier.send_notification(user, "Welcome!")
 ```
 
+### Advanced Design Patterns:   
+
+
+##### Advanced Design Patterns:    
 
 *2/. In unit 5 and 12 , I chose Strategy to replace a long if elif chain that violate the Open/Close Principle, I added set_strategy() so the payment method can change during the runtime:*  
 
@@ -234,74 +244,36 @@ class CashPayment(PaymentStrategy):
         return True
 ```
 
+##### Decorator:   
 
-*In seminar 4 and unit 12 . I chose Decorator to add features without changing the original class. In ShopEase, decorators build the order price step by step:*   
+*In seminar 4 and unit 12 . I chose Decorator to add features without changing the original class. In ShopEase, decorators build the order price step by step, and each decorator has one resposibility, which improve maintianbility, and new price rules can be added as new decorators.*   
 
 Seminar 4   
 
 ```python
-price = DiscountDecorator(BasicOrderPrice(total), 10)
-price = ShippingDecorator(price, 20)
+  #Customise the Coffee
+coffee = RegularCoffee()                                     
+
+coffee = Milk(coffee)
+coffee = ChoclateDuster(coffee)
 ```
 
 
 Unit 12    
 
 ```Python
-class OrderPriceComponent(ABC):
+ #Decorator
 
-    @abstractmethod
-    def calculate_price(self):
-        pass
+    basic_price = BasicOrderPrice(customer.calculate_cart_total() )
 
+    discounted_price = DiscountDecorator(basic_price, 10)
 
-class BasicOrderPrice(OrderPriceComponent):
+    final_price = ShippingDecorator(discounted_price, 20)
 
-    def __init__(self, price):
-
-        self.__price = price
-
-    def calculate_price(self):
-
-        return self.__price
-
-
-class OrderPriceDecorator(OrderPriceComponent):
-
-    def __init__(self, component):
-
-        self._component = component
-
-
-class DiscountDecorator(OrderPriceDecorator):
-
-    def __init__(self, component, discount_percentage):
-
-        super().__init__(component)
-
-        self.__discount_percentage = (discount_percentage)
-
-    def calculate_price(self):
-
-        price = (self._component.calculate_price() )
-
-        discount = (price * self.__discount_percentage/ 100 )
-
-        return price - discount
-
-
-class ShippingDecorator(OrderPriceDecorator):
-
-    def __init__(self, component, shipping_fee):
-
-        super().__init__(component)
-
-        self.__shipping_fee = shipping_fee
-
-    def calculate_price(self):
-
-        return (self._component.calculate_price() + self.__shipping_fee)
+    total = final_price.calculate_price()
 ```
+
+##### Visitor: 
 
 *I chose Visitor to separate reporting and discount operations from the Product class, so a new report only needs a new visitor class and Product stays unchangable, which improve extensibility.*   
 
@@ -310,6 +282,7 @@ def accept(self, visitor):
     return visitor.visit_product(self)
 ```
 
+##### Abstract Factory :   
 
 *I used Abstract Factory in ShopEase, so Web and Mobile UI components considering as matching families.*     
 ```PYHTON
@@ -356,9 +329,11 @@ class MobileMessage(UIMessage):
 ```
 
 
+  ### Testing: Mocking and AI-Assisted Tools
 
+##### Mocking:   
 
-*3/.- I used unittest.mock to isolated classes and replace real dependencies:*
+*3/. I used unittest.mock to isolated classes and replace real dependencies:*
 ```python 
 mock_payment = Mock(spec=PaymentStrategy)
 mock_payment.pay.return_value = True
@@ -366,34 +341,53 @@ order = Order("O001", customer, mock_payment)
 assert order.checkout(100) is True
 ```
 
-*I also mocked Cache and OrderOserver, so checkout and notification were tested without real payment,SMS or email. Because RecommendationService relirs on the RecommendationModel intreface.*
+*I also mocked Cache and OrderOserver, so checkout and notification were tested without real payment,SMS or email. Because RecommendationService relies on the RecommendationModel intreface.*
 
+
+##### AI-assisted tools:
 
 *AI-assisted tool. I used ChatGPT to understand errors and SonarQube to detect code smells.SonarQube flagged some validation code that was logically correct, which supports Lenarduzzi et al.'s (2020) finding that its rules do not always prevent bugs*
 
 
 
-*4/.- Capstone Project:*
-*making the architecture Scalable by keeping the components loosely coupled within a layered architecture.*
+#### *4/. Capstone Project:*    
 
+##### Scalable architecture:   
 
 *The ShopEase capstone project uses the Strategy, Decorator, Observer ,Adapter, Visitor and Abstract Factory design patterns to create a scalable and maintainable architecture. These patterns help keep the components **loosely coupled**, allowing individual parts of the system to be changed or extended without significantly affecting other components. The application is organised using a **layered architecture**, separating responsibilities between the domain, repository, service, and application layers.*
 
-*Unit tests checked login, checkout, inventory, decorators and notification, including failure cases such as a wrong password and insufficient stock.*
+##### Robustness:    
 
-*ModelRegistry, FeatureStore and the RecommendationModel Interface mean AI models can be replaced or added without rewriting the service.*
+*I followed TDD, my tests first failed with a Name Error because the classes did not writtem yet, that achieves the red stage in TDD. After I wrote the code , all six tests passed which achieves the green stage. The test cover login,checkout,inventory,decorators,notifications and recommendations.*
 
-*5/.- Critical Commentary:*
-*In unit (6), I used encapsulation , kept to the Single Responsibility Principle and used locks. My challenges were how to apply the threads correctly in my code and how to manage multiple threads accessing the same bank account .I read the book(Advanced Python Programming) Nguyen (2022), and I learned to use join() and start() methods . Another issue I faced were a Type Error caused by importing a module instead of class , and threading.thread written in lowercase. I fixed both by reading the error and working on them.*
+##### AI-readiness:   
+
+*ModelRegistry, FeatureStore and the RecommendationModel Interface mean AI models can be replaced or added without rewriting the service.*   
+
+### Critical Commentary:   
+
+##### Thread-safe banking :
+5/. *In unit (6), I used encapsulation , kept to the Single Responsibility Principle and used locks. My challenges were how to apply the threads correctly in my code and how to manage multiple threads accessing the same bank account .I read the book(Advanced Python Programming) Nguyen (2022), and I learned to use join() and start() methods . Another issue I faced were a Type Error caused by importing a module instead of class , and threading.thread written in lowercase. I fixed both by reading the error and working on them.*    
+
+##### Secure authentication:
 
 *In units 7 and 10 where Secure authentication implemented . I used encapsulation, hashing and TDD. My challenge was that I hadn't installed bcrypt at first, and peer testing exposed the duplicate-username problem. I installed bcrypt and added the missing checks. Also, I used SonarQube to detect the error.*
 
+##### ShopEase capstone:   
 
-*ShopEase capstone (Unit 12). I used the four OOP principles, SOLID, Dependency Injection and several patterns. My challenge was combining many patterns in one system. I overcame it by organising the code into layers and services.*
+*ShopEase capstone (Unit 12). I used the four OOP principles, SOLID, Dependency Injection and several patterns. My challenge was combining many patterns in one system. I overcame it by organising the code into layers and services.*    
 
-*6/. Pattern selection trade-offs: In Unit 8, named constants were simpler, but Strategy was more extensible. I learned to choose a pattern only when the system is likely to grow. My peer`s initial post was very helpful and help me to understand the way to start writing my own code.*
+### Refletion:   
 
-*Testing complexity: In unit 10 tests contained typos and wrong assertions, which showed me that tests need the same care as production code.*
+ ##### Pattern selection trade-offs:       
+
+6/. *In Unit 8, named constants were simpler, but Strategy was more extensible. I learned to choose a pattern only when the system is likely to grow. My peer`s initial post was very helpful and helped me to understand the way to start writing my own code.*
+
+##### Testing complexity: 
+
+*In unit 10 tests contained typos and wrong assertions, which showed me that tests need the same care as production code.*   
+
+##### Abstraction vs over-engineering: 
 
 *Managing abstraction vs over-engineering: I used AI oriented pattern in simple way as this is the first attempt to apply this pattern.*   
 
