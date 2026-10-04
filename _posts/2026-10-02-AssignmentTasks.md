@@ -190,7 +190,7 @@ class UserManager:
 ```
 
 
-*2/.- In unit 5 and 12 I chose Strategy to replace a long if elif chain that violate the Open/Close Principle, I added set_strategy() so the payment method can change during the runtime:*  
+*2/. In unit 5 and 12 , I chose Strategy to replace a long if elif chain that violate the Open/Close Principle, I added set_strategy() so the payment method can change during the runtime:*  
 
 ```python
 
@@ -199,12 +199,108 @@ processor.set_strategy(PayPalPayment())
 
 ```
 
+```Python
+class PaymentStrategy(ABC):
 
-*In seminar 4 and unit 12 . I chose Decorator to add features without changing the original class. In ShopEase, decorators build the order price step by step:*
+    @abstractmethod
+    def pay(self, amount):
+        pass
+
+
+class CreditCardPayment(PaymentStrategy):
+
+    def pay(self, amount):
+
+        print(f"Paid ${amount:.2f} using Credit Card" )
+
+        return True
+
+
+class PayPalPayment(PaymentStrategy):
+
+    def pay(self, amount):
+
+        print(f"Paid ${amount:.2f} using PayPal")
+
+        return True
+
+
+class CashPayment(PaymentStrategy):
+
+    def pay(self, amount):
+
+        print(f"Paid ${amount:.2f} using Cash")
+
+        return True
+```
+
+
+*In seminar 4 and unit 12 . I chose Decorator to add features without changing the original class. In ShopEase, decorators build the order price step by step:*   
+
+Seminar 4   
 
 ```python
 price = DiscountDecorator(BasicOrderPrice(total), 10)
 price = ShippingDecorator(price, 20)
+```
+
+
+Unit 12    
+
+```Python
+class OrderPriceComponent(ABC):
+
+    @abstractmethod
+    def calculate_price(self):
+        pass
+
+
+class BasicOrderPrice(OrderPriceComponent):
+
+    def __init__(self, price):
+
+        self.__price = price
+
+    def calculate_price(self):
+
+        return self.__price
+
+
+class OrderPriceDecorator(OrderPriceComponent):
+
+    def __init__(self, component):
+
+        self._component = component
+
+
+class DiscountDecorator(OrderPriceDecorator):
+
+    def __init__(self, component, discount_percentage):
+
+        super().__init__(component)
+
+        self.__discount_percentage = (discount_percentage)
+
+    def calculate_price(self):
+
+        price = (self._component.calculate_price() )
+
+        discount = (price * self.__discount_percentage/ 100 )
+
+        return price - discount
+
+
+class ShippingDecorator(OrderPriceDecorator):
+
+    def __init__(self, component, shipping_fee):
+
+        super().__init__(component)
+
+        self.__shipping_fee = shipping_fee
+
+    def calculate_price(self):
+
+        return (self._component.calculate_price() + self.__shipping_fee)
 ```
 
 *I chose Visitor to separate reporting and discount operations from the Product class, so a new report only needs a new visitor class and Product stays unchangable, which improve extensibility.*   
@@ -215,7 +311,51 @@ def accept(self, visitor):
 ```
 
 
-*I used Abstract Factory in ShopEase, so Web and Mobile UI components considering as matching families.*
+*I used Abstract Factory in ShopEase, so Web and Mobile UI components considering as matching families.*     
+```PYHTON
+class UIButton(ABC):
+
+    @abstractmethod
+    def render(self):
+        pass
+
+
+class UIMessage(ABC):
+
+    @abstractmethod
+    def display(self, message):
+        pass
+
+
+class WebButton(UIButton):
+
+    def render(self):
+
+        return "Rendering Web Button"
+
+
+class WebMessage(UIMessage):
+
+    def display(self, message):
+
+        return f"Web Message: {message}"
+
+
+class MobileButton(UIButton):
+
+    def render(self):
+
+        return "Rendering Mobile Button"
+
+
+class MobileMessage(UIMessage):
+
+    def display(self, message):
+
+        return f"Mobile Message: {message}"
+```
+
+
 
 
 *3/.- I used unittest.mock to isolated classes and replace real dependencies:*
