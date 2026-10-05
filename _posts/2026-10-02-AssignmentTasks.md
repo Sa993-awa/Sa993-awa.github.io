@@ -408,7 +408,7 @@ assert order.checkout(100) is True
     
      -Research and self-study: How you engaged with reading materials, research papers, and case studies to deepen your            understanding.   
     
-  -Employability Skills: Reflect on how the module has helped you develop key employability skills such as:   
+ -Employability Skills: Reflect on how the module has helped you develop key employability skills such as:   
 
     -Time management: How you managed your time to complete coursework, practical exercises, and the Capstone Project.   
    
