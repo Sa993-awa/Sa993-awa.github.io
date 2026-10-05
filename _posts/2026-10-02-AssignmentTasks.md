@@ -8,7 +8,7 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 
 ### Task1: Summarise Key Learning Outcomes:   
 
-Reflect on Learning Objectives: Provide a summary of how you have achieved the module’s learning objectives:   
+  Reflect on Learning Objectives: Provide a summary of how you have achieved the module’s learning objectives:   
 
      -Understand and implement secure coding practices in software development.   
 
@@ -18,27 +18,27 @@ Reflect on Learning Objectives: Provide a summary of how you have achieved the m
 
       -Briefly extend your reflection to include:   
 
-        1.\ Advanced design pattterns (practical application):mention hands-on use of Strategy, Decorator, Visitor and                Abstract Factory, explicitly linking them to:   
+        1.\ Advanced design pattterns (practical application):mention hands-on use of Strategy, Decorator, Visitor and                              Abstract Factory, explicitly linking them to:   
 
-         -Runtime behavioural flexibility.   
+          -Runtime behavioural flexibility.   
 
-        -Seperation of concerns.   
+         -Seperation of concerns.   
 
         -Scalability and extensibility in complex systems   
 
-      2.\ AI-orientated OO patterns (conceptual awareness): briefly note exposure to AI-inspired architectural patterns such            as:   
+      2.\ AI-orientated OO patterns (conceptual awareness): briefly note exposure to AI-inspired architectural patterns such                     as:   
 
           - Model Registry (managing lifecycle.versionin of ML models).   
 
           - Feature Store (centralised, reusable feature management).   
 
-    Design software architectures suitable for large-scale systems, ensuring security and robustness.   
+       Design software architectures suitable for large-scale systems, ensuring security and robustness.   
 
-    Develop software solutions that are adaptable for AI models and efficient for data science tasks.   
+        Develop software solutions that are adaptable for AI models and efficient for data science tasks.   
 
-       -Link to Practical Work:   
+           -Link to Practical Work:   
 
-        -For each learning objectives, provide examples from your practical work (e.g., coding exercises, case studies,               Capstone Project) that demonstrate your understanding and application of the concepts.    
+            -For each learning objectives, provide examples from your practical work (e.g., coding exercises, case studies,               Capstone Project) that demonstrate your understanding and application of the concepts.    
 
        
        
@@ -392,7 +392,9 @@ assert order.checkout(100) is True
 
 *Managing abstraction vs over-engineering: I used AI oriented pattern in simple way as this is the first attempt to apply this pattern.*     
 
-          ******--------------------------------------------------------------------------****** 
+          ******--------------------------------------------------------------------------******    
+
+          
 
 
 ### Task 3: Reflect on Skill Development:
@@ -401,12 +403,12 @@ assert order.checkout(100) is True
 
       -Critical thinking and analysis: How you analysed complex software problems and applied OOP principles to solve them.  
      
-      -Ethical considerations in AI-driven OO designs: bias propagation through poorly designed class hierarchies,                  transparency and explainability challenges in AI-enabled objects, responsibility of OO designers in - ensuring               testability, avoiding "black box" coupling and supporting auditability through clean design.   
+      -Ethical considerations in AI-driven OO designs: bias propagation through poorly designed class hierarchies,                             transparency and explainability challenges in AI-enabled objects, responsibility of OO designers in - ensuring                          testability, avoiding "black box" coupling and supporting auditability through clean design.   
      
      
      -Problem-solving: How you approached coding challenges and refactored code to improve maintainability.   
     
-     -Research and self-study: How you engaged with reading materials, research papers, and case studies to deepen your            understanding.   
+     -Research and self-study: How you engaged with reading materials, research papers, and case studies to deepen your                         understanding.   
     
  -Employability Skills: Reflect on how the module has helped you develop key employability skills such as:   
 
@@ -414,9 +416,11 @@ assert order.checkout(100) is True
    
     -Communication and literacy: How you communicated your ideas in collaborative discussions and written reports.   
    
-     -Resilience and Interpersonal Skills: How you worked through challenges and collaborated with peers in group                   activities.   
+     -Resilience and Interpersonal Skills: How you worked through challenges and collaborated with peers in group                              activities.    
+
+     
    
-    ****************************************************************** 
+            ****************************************************************** 
 
 
 
