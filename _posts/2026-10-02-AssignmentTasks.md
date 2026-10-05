@@ -399,22 +399,24 @@ assert order.checkout(100) is True
 
   -Academic Skills: Reflect on how the module has helped you developed critical academic skills such as:   
 
-     -Critical thinking and analysis: How you analysed complex software problems and applied OOP principles to solve them.  
+      -Critical thinking and analysis: How you analysed complex software problems and applied OOP principles to solve them.  
      
-     -Ethical considerations in AI-driven OO designs: bias propagation through poorly designed class hierarchies,                  transparency and explainability challenges in AI-enabled objects, responsibility of OO designers in - ensuring               testability, avoiding "black box" coupling and supporting auditability through clean design.   
+      -Ethical considerations in AI-driven OO designs: bias propagation through poorly designed class hierarchies,                  transparency and explainability challenges in AI-enabled objects, responsibility of OO designers in - ensuring               testability, avoiding "black box" coupling and supporting auditability through clean design.   
      
      
-    -Problem-solving: How you approached coding challenges and refactored code to improve maintainability.   
+     -Problem-solving: How you approached coding challenges and refactored code to improve maintainability.   
     
-    -Research and self-study: How you engaged with reading materials, research papers, and case studies to deepen your            understanding.   
+     -Research and self-study: How you engaged with reading materials, research papers, and case studies to deepen your            understanding.   
     
--Employability Skills: Reflect on how the module has helped you develop key employability skills such as:   
+  -Employability Skills: Reflect on how the module has helped you develop key employability skills such as:   
 
-   -Time management: How you managed your time to complete coursework, practical exercises, and the Capstone Project.   
+    -Time management: How you managed your time to complete coursework, practical exercises, and the Capstone Project.   
    
-   -Communication and literacy: How you communicated your ideas in collaborative discussions and written reports.   
+    -Communication and literacy: How you communicated your ideas in collaborative discussions and written reports.   
    
-   -Resilience and Interpersonal Skills: How you worked through challenges and collaborated with peers in group activities.
+     -Resilience and Interpersonal Skills: How you worked through challenges and collaborated with peers in group                   activities.   
+   
+    ****************************************************************** 
 
 
 
