@@ -58,18 +58,24 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 
  ##### Design patterns:   
  
+ ##### Strategy:
  *In unit 5 after Donald`s feedback I added  set_strategy(),   which let one PaymentProcessor switch between creditcard,crypto and bank transfer during checkout. Also, in unit 8, I moved discount rules into separate strategy classes.         
  In unit 9, in ShopEase I used PaymentStartegy for interchangeable payment methods.*
- 
+
+ ##### Decorator:
  *In Seminar 4, I built a coffee shop application and I used Decorator to extend objects without changing the, I added milk and chocolate to a coffee without modifying RegularCoffee. 
  *Also, in unit 12 , DiscountDecorator and ShippingDecorator built up the order price step by step.*   
  
-
- *In unit 12, I applied visitor pattern, which enhance extensibility, because ProductReportVisitor and ProductDiscountVisitor added  reporting operations without editing Product.* *I also applied Abstract Factory in ShopEase ,which supported scalability by creating matching Web and Mobile UI components.*
+##### visitor:
+ *In unit 12, I applied visitor pattern, which enhance extensibility, because ProductReportVisitor and ProductDiscountVisitor added  reporting operations without editing Product.*     
+ 
+##### Abstract Factory :
+ *I also applied Abstract Factory in ShopEase ,which supported scalability by creating matching Web and Mobile UI components.*    
+ 
 
 ##### 2- AI-Oriented Pattern:   
 
-*in my capstone project. I used ModelRegistery that stores model versions and FeatureStore for reusable user feature.*At first, my registry stored only the model`s name as text, and the output showed nothing about the model, I corrected it and the output run and show the model and its version from the registry.*
+*in my capstone project, I used ModelRegistery that stores model versions and FeatureStore for reusable user feature.*At first, my registry stored only the model`s name as text, and the output showed nothing about the model, I corrected it and the output run and show the model and its version from the registry.*
 
  *In ShopeEase I used a layered architecture with repository, caching and bcrypt to make the system secure, this feature make the system suitable for Large-scale architecture.*
 
@@ -132,7 +138,7 @@ tags: [Task1, Task2 ,Task3, Task4 ]
     
                 *************************************************************************    
                 
-### Coding Exercises:     
+### 1- Coding Exercises:     
 
 ##### Thread-safe banking system:    
 
@@ -202,14 +208,11 @@ class UserManager:
 
     def register_user(self, user):
         self.notifier.send_notification(user, "Welcome!")
-```
+```   
 
-### Advanced Design Patterns:   
+### 2- Advanced Design Patterns:    
 
-
-##### Advanced Design Patterns:    
-
-*2/. In unit 5 and 12 , I chose Strategy to replace a long if elif chain that violate the Open/Close Principle, I added set_strategy() so the payment method can change during the runtime:*  
+*In unit 5 and 12 , I chose Strategy to replace a long if elif chain that violate the Open/Close Principle, I added set_strategy() so the payment method can change during the runtime:*  
 
 ```python
 
@@ -217,6 +220,7 @@ processor = PaymentProcessor(CreditCardPayment())
 processor.set_strategy(PayPalPayment())
 
 ```
+
 
 ```Python
 class PaymentStrategy(ABC):
@@ -338,7 +342,7 @@ class MobileMessage(UIMessage):
 ```
 
 
-  ### Testing: Mocking and AI-Assisted Tools
+  ### 3-Testing: Mocking and AI-Assisted Tools
 
 ##### Mocking:   
 
@@ -373,10 +377,10 @@ assert order.checkout(100) is True
 
 *ModelRegistry, FeatureStore and the RecommendationModel Interface mean AI models can be replaced or added without rewriting the service.*   
 
-### Critical Commentary:   
+### 5- Critical Commentary:   
 
 ##### Thread-safe banking :
-5/. *In unit (6), I used encapsulation , kept to the Single Responsibility Principle and used locks. My challenges were how to apply the threads correctly in my code and how to manage multiple threads accessing the same bank account .I read the book(Advanced Python Programming) Nguyen (2022), and I learned to use join() and start() methods . Another issue I faced were a Type Error caused by importing a module instead of class , and threading.thread written in lowercase. I fixed both by reading the error and working on them.*    
+ *In unit (6), I used encapsulation , kept to the Single Responsibility Principle and used locks. My challenges were how to apply the threads correctly in my code and how to manage multiple threads accessing the same bank account .I read the book(Advanced Python Programming) Nguyen (2022), and I learned to use join() and start() methods . Another issue I faced were a Type Error caused by importing a module instead of class , and threading.thread written in lowercase. I fixed both by reading the error and working on them.*    
 
 ##### Secure authentication:
 
@@ -386,11 +390,11 @@ assert order.checkout(100) is True
 
 *ShopEase capstone (Unit 12). I used the four OOP principles, SOLID, Dependency Injection and several patterns. My challenge was combining many patterns in one system. I overcame it by organising the code into layers and services.*    
 
-### Reflection:   
+### 6- Reflection:   
 
  ##### Pattern selection trade-offs:       
 
-6/. *In Unit 8, named constants were simpler, but Strategy was more extensible. I learned to choose a pattern only when the system is likely to grow. My peer`s initial post was very helpful and helped me to understand the way to start writing my own code.*
+ *In Unit 8, named constants were simpler, but Strategy was more extensible. I learned to choose a pattern only when the system is likely to grow. My peer`s initial post was very helpful and helped me to understand the way to start writing my own code.*
 
 ##### Testing complexity: 
 
