@@ -51,7 +51,7 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 * Starting in Unit 7, I used bcrypt hashing to secure an authentication system, and I applied a password policy, input validation, and limited login attempts. peer`s feedback after testing my code helped me to add a username uniqueness check. After that, I used this in Unit 10 to apply TDD in my code.*
 
 
-##### In advance Object Oriented Principles
+### In advance Object Oriented Principles
  
  *In Unit 2, I refactored a simple online shopping system using the SOLID principles. As a result, the Order class depended on the abstract Payment Method and Discount Method classes rather than on specific implementations.*  
  
@@ -83,7 +83,7 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 
          ******--------------------------------------------------------------------------******   
 
- ### Task2 : Showcase Artefacts:
+ ### Task2 : Showcase Artefacts
 
 #### Include Key Artefacts: Include the following artefacts developed during the module:   
 
@@ -137,9 +137,9 @@ tags: [Task1, Task2 ,Task3, Task4 ]
     
                 *************************************************************************    
                 
-### 1- Coding Exercises:     
+### 1-Coding Exercises    
 
-##### Thread-safe banking system:    
+#### Thread-safe banking system    
 
 
   *1/. In unit 6 : Thread-safe banking system , each account has its own lock. preventing  deadlock by applying transfer acquire locks in consistent order.*    
@@ -154,7 +154,7 @@ with first.lock:
 
 ```
 
-##### Secure authentication :    
+##### Secure authentication     
 
 *In unit 7, the password is hashed with bcrypt before storing and duplicate usernames are rejected. Which supported secure authentication.* 
 
@@ -179,7 +179,7 @@ class UserManagment:
 ```
 
 
-##### Dependency Injection:   
+##### Dependency Injection   
 
 *Dependency Injection was applied in unit 11; User Manager receives its Notification Service from outside instead of creating Email Service itself.*   
 
@@ -209,7 +209,7 @@ class UserManager:
         self.notifier.send_notification(user, "Welcome!")
 ```   
 
-### 2- Advanced Design Patterns:    
+### 2- Advanced Design Patterns       
 
 *In unit 5 and 12 , I chose Strategy to replace a long if elif chain that violates the Open/Close Principle, I added set_strategy() so the payment method can change during the runtime:*  
 
@@ -256,7 +256,7 @@ class CashPayment(PaymentStrategy):
         return True
 ```
 
-##### Decorator:   
+##### Decorator  
 
 *In Seminar 4 and Unit 12, the Decorator pattern is explored in order to add new features without changing the original class. In ShopEase, decorators calculate the order price step by step. To this end, each decorator has a single responsibility. This would help to improve the maintainability and management of the system. Noting that new rules for pricing can also be included in the system by simply adding new decorators.*   
 
@@ -285,7 +285,7 @@ coffee = ChoclateDuster(coffee)
     total = final_price.calculate_price()
 ```
 
-##### Visitor: 
+##### Visitor 
 
 *Visitor is chosen to separate reporting and discount operations from the class of the Product. As such, the new report needs a new visitor class. Therefore, the product stays unchanged, which enhances extensibility.*   
 
@@ -294,7 +294,7 @@ def accept(self, visitor):
     return visitor.visit_product(self)
 ```
 
-##### Abstract Factory :   
+##### Abstract Factory    
 
 *The Abstract Factory in ShopEase is explored. Therefore, matching families with Web and Mobile UI components are utilized..*     
 ```PYHTON
@@ -343,7 +343,7 @@ class MobileMessage(UIMessage):
 
   ### 3-Testing: Mocking and AI-Assisted Tools
 
-##### Mocking:   
+##### Mocking   
 
 *3/. I used a unittest.mocked to isolated classes and replace real dependencies:*
 ```python 
@@ -356,7 +356,7 @@ assert order.checkout(100) is True
 *I also mocked Cache and OrderOserver, so checkout and notification were tested without real payment,SMS or email. Because RecommendationService relies on the RecommendationModel intreface.*
 
 
-##### AI-assisted tools:
+##### AI-assisted tools   
 
 *I used ChatGPT to help me understand and fix errors in the code. SonarQube is also used in this report to identify possible code smells. Although SonarQube was logically correct, it flagged some validation code. This discovery agrees with the findings of Lenarduzzi et al. (2020).*
 
@@ -364,45 +364,45 @@ assert order.checkout(100) is True
 
 #### *4/. Capstone Project:*    
 
-##### Scalable architecture:   
+##### Scalable architecture     
 
 *The ShopEase capstone project uses several design patterns, including Strategy, Decorator, Observer, Adapter, Visitor, and Abstract Factory. These patterns help create a scalable and maintainable architecture by keeping the system components loosely coupled. This allows individual parts of the system to be changed or extended without having a significant effect on the other components.
 The application is organised using a layered architecture that separates responsibilities between the domain, repository, service, and application layers.*
 
-##### Robustness:    
+##### Robustness       
 
 *I followed a Test-Driven Development (TDD) based approach. At the beginning, all tests failed with a NameError. This is because the classes under evaluation had not yet been considered, which achieved the red stage of the cycle in TDD. After implementing the required classes, all six tests have passed. By completing these tasks, the green stage is completed. The TDD covers different things, including the login, inventory, management, decorators, checkout recommendations, and notifications.*
 
-##### AI-readiness:   
+##### AI-readiness      
 
  *This includes the feature store and model registry, as well as the recommendation model Interface. This implies that the AI models can be replaced or added without rewriting the service.*   
 
-### 5- Critical Commentary:   
+### 5- Critical Commentary   
 
-##### Thread-safe banking :
+##### Thread-safe banking 
  *In Unit 6, I applied encapsulation, followed the Single Responsibility Principle, and used locks to protect the system. One of the main challenges was applying threads correctly and managing multiple threads accessing the same bank account. After reading Advanced Python Programming by Nguyen (2022), I learned how to use the start () and join() methods.   
 I also encountered a TypeError because I imported a module instead of a class. In addition, I wrote threading thread in lowercase instead of using the correct form, threading. Thread. I fixed both problems by carefully reading the error messages and correcting the code.*
     
 
-##### Secure authentication:
+##### Secure authentication
 
 *In units 7 and 10, secure authentication was implemented. I used encapsulation, hashing, and TDD. My challenge was that I hadn’t installed bcrypt at first, and peer testing exposed the duplicate-username problem. I installed bcrypt and added the missing checks. Also, I used SonarQube to detect the error.*
 
-##### ShopEase capstone:   
+##### ShopEase capstone   
 
 *ShopEase capstone (Unit 12). I used the four OOP principles, SOLID, Dependency Injection, and several patterns. My challenge was combining many patterns in one system. I overcame it by organising the code into layers and services.*    
 
-### 6- Reflection:   
+### 6- Reflection   
 
- ##### Pattern selection trade-offs:       
+ ##### Pattern selection trade-offs       
 
  *In Unit 8, named constants were simpler, but strategy was more extensible. I learned to choose a pattern only when the system is likely to grow. My initial evaluation was very helpful since it helped me to understand the effective way to start writing my own code.*
 
-##### Testing complexity: 
+##### Testing complexity 
 
 *Unit 10 evaluation contained typos and wrong assertions. This shows that the tests need the same consideration as production code.*   
 
-##### Abstraction vs over-engineering: 
+##### Abstraction vs over-engineering 
 
 *Balancing abstraction is done against over-engineering. To this end, I used an AI-oriented pattern in a simple way since this was considered as the first attempt to apply this pattern.*     
 
@@ -436,7 +436,8 @@ I also encountered a TypeError because I imported a module instead of a class. I
    
             ****************************************************************** 
 
-##### Critical thinking and analysis.   
+##### Critical thinking and analysis   
+
 *This module taught me the importance of analysing a problem before writing code. In Unit 5, I identified three design problems in the original Payment Processor: it violated the Open/Closed Principle, was tightly coupled, and used a long if-elif chain. I solved these problems by applying the Strategy pattern.*   
 
 *In Unit 8, I compared two different solutions. I found that using named constants improved readability but did not remove the long method, while the Strategy pattern applied the Open/Closed Principle more effectively. I also learned how to review my peers’ work critically. For example, I explained to Sopheaktra that using a dictionary of discount values did not fully implement the Strategy pattern.*   
@@ -444,7 +445,8 @@ I also encountered a TypeError because I imported a module instead of a class. I
 *I also learned to evaluate development tools carefully. SonarQube flagged some of my validation code even though it was logically correct. This supported the findings of Lenarduzzi et al. (2020), who stated that SonarQube rules do not always prevent software bugs.*   
 
 
-##### The considerations of ethics in AI design.   
+##### The considerations of ethics in AI design   
+
 *Some groups may be treaded unfairly using the AI model, as explained in Aljawawdeh et al. (2024). The authors also explained that AI is based on black-box models, so that no one can know their decisions. To this end, in OOD, a subclass inherits the rules of its parent class. For example, my Car class inherited from the Vehicle class in Unit 1. This implies that if a parent class contains a biased rule, that bias could affect all of its subclasses.*      
 
 *When separate strategy classes are used, each rule is clearer and easier to evaluate. The work in Unit 11 also showed that the problems can be caused by black-box coupling. The original User Manager was tightly connected to the Email Service, which made it difficult to evaluate because it always attempted to send a real email. In ShopEase, the Recommendation Service depends on the Recommendation Model interface, allowing me to evaluate it with a mock model instead of using a real one.*       
@@ -452,7 +454,7 @@ I also encountered a TypeError because I imported a module instead of a class. I
  	*The authors also recommend keeping auditable logs of AI decisions. This relates to Donald’s suggestion in Unit 7 to record failed login attempts. I now understand that OOD has a responsibility to create systems that are testable, transparent, and traceable.*  
 
   
-##### How I learned problem solving technique.    
+##### How I learned problem solving technique       
 
 *I have addressed several programming problems and I have faced several coding challenges during my writing the program code. I have  analysed my reading error messages carefully and worked on resolving each error sequentially by solving one problem at a time. Examples are given bellow:   
 
@@ -467,7 +469,7 @@ I also encountered a TypeError because I imported a module instead of a class. I
 
 *To enhance maintainability, the code was also refactored. For example, in Unit 7, I refactored an insecure authentication system, and in Unit 8, I moved discount rules into separate strategy classes.*    
 
-#####  How I conducted research and self-learning.
+#####  How I conducted research and self-learning   
 
 *Several books have been considered in my reading. Then, I have applied the concepts in these in my report. Examples of these books are*:
 -
@@ -480,18 +482,19 @@ I also encountered a TypeError because I imported a module instead of a class. I
 
 ##### Employability Skills  
 
-### Time management.   
+### Time management   
 
 *I managed my time by preparing for each seminar in advance. For example, I had already covered part of Unit 2 when the tutor asked whether we had heard of SOLID. I also added my work to my e-portfolio one unit at a time, which helped me build up to the capstone project step by step.*   
 
-### Communication and literacy.    
+### Communication and literacy      
 
 *I expressed my perspectives by participating in four collaborative discussions. To this end, I posted my initial contributions, considered the feedback that I received, and provided my peers’ contributions based on the feedback that I received. In particular, I provided all the essential comments to all the feedback that I have received, including the feedback that I have obtained from Molly, Kaona, Séba, Reem, and Sopheaktra. I have also provided comments in reply to Donald and Dr Nawaz.*   
 
 *I have attended several seminars during my study course. During these seminars, I presented my work. These seminars include an explanation of concurrency in Seminar 6 and the Red-Green-Refactor cycle in Seminar 8. I have also obtained feedback from my tutor, who provided me with comments on Unit 6. Interestingly, I have received positive feedback from my tutor who observed that my report is well written and well structured. One of the comments was that my report contained clear sections. It is worth noting that I have also explored AI tools in order to assist me with proofreading and to check the grammar and spelling.*
 
 
-### Resilience and interpersonal skills.
+### Resilience and interpersonal skills   
+
 
 *Here I discuss how I work hard during my course to improve my resilience and interpersonal skills. I have resolved the errors that I have discovered and the errors that my tutor found without giving up. These errors include threading mistakes in Unit 6, the absence of bcrypt library installation in Unit 7, and the Model Registry problem in my capstone.*   
 
