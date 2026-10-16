@@ -519,14 +519,14 @@ To this end, Séba's suggestions have been incorporated and applied to my report
 
 ### Task 4️⃣ : Professional Development Plan (PDP):
 
-   -Identify Strengths and Areas for Improvement:
-     -Based on your performance in the module, identify your strengths (e.g., areas where you excelled) and areas for              improvement  (e.g., concepts or skills you found challenging).  
+        -Identify Strengths and Areas for Improvement:
+          -Based on your performance in the module, identify your strengths (e.g., areas where you excelled) and areas for              improvement  (e.g., concepts or skills you found challenging).  
  
-   -Future Goals and Actions:   
+        -Future Goals and Actions:   
  
-     -Deeping expertise in AI-aware software architecture.
-     -Advanced testing strategies for intelligent systems.
-     -Ethical software engineering in AI-integrated applications.
+         -Deeping expertise in AI-aware software architecture.
+         -Advanced testing strategies for intelligent systems.
+         -Ethical software engineering in AI-integrated applications.
 
 
 ******-------------------------------------------------------------------------------------------------******  
