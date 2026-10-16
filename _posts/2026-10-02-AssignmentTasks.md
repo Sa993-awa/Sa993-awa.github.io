@@ -49,25 +49,26 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 ##### 1- Secure coding: 
 
 * Starting in Unit 7, I used bcrypt hashing to secure an authentication system, and I applied a password policy, input validation, and limited login attempts. peer`s feedback after testing my code helped me to add a username uniqueness check. After that, I used this in Unit 10 to apply TDD in my code.*
- 
-  #####  In advance Object Oriented Principles: 
+
+
+#####  In advance Object Oriented Principles: 
  
  *In Unit 2, I refactored a simple online shopping system using the SOLID principles. As a result, the Order class depended on the abstract Payment Method and Discount Method classes rather than on specific implementations.*  
  
 *In Unit 6, I developed a thread-safe banking system using locks and lock ordering. This work applied OOP principles and maintained proper encapsulation. In Unit 11, I used dependency injection to separate the User Manager from the Email Service.* 
 
-  ##### Design patterns:   
+##### Design patterns:   
  
- ##### Strategy:   
+#### Strategy:   
  *In Unit 5, based on feedback from my colleague, I added the set_Strategy () method. This method allows the Payment Processor to switch between different payment methods, such as credit card, cryptocurrency, and bank transfer, during checkout. In Unit 8, I separated the discount rules into individual strategy classes. In Unit 9, I applied the Payment Strategy pattern in ShopEase to support interchangeable payment methods.*
 
- ##### Decorator:   
+#### Decorator:   
  *In Seminar 4, I built a coffee shop application, and I used Decorator to extend objects without changing them. I added milk and chocolate to a coffee without modifying RegularCoffee. Also, in Unit 12, Discount Decorator and Shipping Decorator built up the order price step by step.*   
  
-##### visitor:   
+#### visitor:   
  *In unit 12, I applied the Visitor pattern, which enhanced extensibility, because Product Report Visitor and Product Discount Visitor added reporting operations without editing Product.*     
  
-##### Abstract Factory :   
+#### Abstract Factory :   
  *I also applied Abstract Factory in ShopEase, which supported scalability by creating matching Web and Mobile UI components.*    
  
 
