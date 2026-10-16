@@ -6,7 +6,7 @@ categories: markdown
 tags: [Task1, Task2 ,Task3, Task4 ]
 ---   
 
-### Task1: Summarise Key Learning Outcomes  
+### Task1️⃣: Summarise Key Learning Outcomes  
 
      -Reflect on Learning Objectives: Provide a summary of how you have achieved the module’s learning objectives:   
 
@@ -39,10 +39,6 @@ tags: [Task1, Task2 ,Task3, Task4 ]
            -Link to Practical Work:   
 
             -For each learning objectives, provide examples from your practical work (e.g., coding exercises, case studies,               Capstone Project) that demonstrate your understanding and application of the concepts.    
-
-       
-       
-
                   ******************************************************************    
                   
                   
@@ -86,7 +82,7 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 
          
 
-### Task2 : Showcase Artefacts
+### Task2️⃣ : Showcase Artefacts
 
 #### Include Key Artefacts: Include the following artefacts developed during the module:   
 
@@ -416,7 +412,7 @@ I also encountered a TypeError because I imported a module instead of a class. I
           
 
 
-### Task 3: Reflect on Skill Development:
+### Task3️⃣: Reflect on Skill Development:
 
       -Academic Skills: Reflect on how the module has helped you developed critical academic skills such as:   
 
@@ -475,7 +471,7 @@ I also encountered a TypeError because I imported a module instead of a class. I
 
 *To enhance maintainability, the code was also refactored. For example, in Unit 7, I refactored an insecure authentication system, and in Unit 8, I moved discount rules into separate strategy classes.*    
 
-###  📚 How I conducted research and self-learning   
+####  📚 How I conducted research and self-learning   
 
 *Several books have been considered in my reading. Then, I have applied the concepts in these in my report. Examples of these books are*:
 -
@@ -488,7 +484,7 @@ I also encountered a TypeError because I imported a module instead of a class. I
 
 ### Employability Skills  
 
-#### 🕟Time management   
+#### ⏰Time management   
 
 *I managed my time by preparing for each seminar in advance. For example, I had already covered part of Unit 2 when the tutor asked whether we had heard of SOLID. I also added my work to my e-portfolio one unit at a time, which helped me build up to the capstone project step by step.*   
 
@@ -499,7 +495,7 @@ I also encountered a TypeError because I imported a module instead of a class. I
 *I have attended several seminars during my study course. During these seminars, I presented my work. These seminars include an explanation of concurrency in Seminar 6 and the Red-Green-Refactor cycle in Seminar 8. I have also obtained feedback from my tutor, who provided me with comments on Unit 6. Interestingly, I have received positive feedback from my tutor who observed that my report is well written and well structured. One of the comments was that my report contained clear sections. It is worth noting that I have also explored AI tools in order to assist me with proofreading and to check the grammar and spelling.*
 
 
-#### 📈 Resilience and interpersonal skills   
+#### 📉📈 Resilience and interpersonal skills   
 
 
 *Here I discuss how I work hard during my course to improve my resilience and interpersonal skills. I have resolved the errors that I have discovered and the errors that my tutor found without giving up. These errors include threading mistakes in Unit 6, the absence of bcrypt library installation in Unit 7, and the Model Registry problem in my capstone.*   
