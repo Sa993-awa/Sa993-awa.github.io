@@ -77,14 +77,14 @@ tags: [Task1️⃣, Task2️⃣ ,Task3️⃣, Task4️⃣ ]
 *AI-ready and flexible solutions, Recommendation Service relies on a Recommendation Model interface; in this case, the model can be replaced without changing the service.*   
  
 
-         ******--------------------------------------------------------------------------******    
+******--------------------------------------------------------------------------------------******    
 
 
          
 
 ### Task 2️⃣ : Showcase Artefacts
 
-#### Include Key Artefacts: Include the following artefacts developed during the module:   
+-Include Key Artefacts: Include the following artefacts developed during the module:   
 
     1.\ Coding Exercises:   
 
@@ -404,13 +404,12 @@ I also encountered a TypeError because I imported a module instead of a class. I
 
 #### Abstraction vs over-engineering 
 
-*Balancing abstraction is done against over-engineering. To this end, I used an AI-oriented pattern in a simple way since this was considered as the first attempt to apply this pattern.*     
+*Balancing abstraction is done against over-engineering. To this end, I used an AI-oriented pattern in a simple way since this was considered as the first attempt to apply this pattern.*  
 
-          ******--------------------------------------------------------------------------******    
+******--------------------------------------------------------------------------------------------******    
           
 
           
-
 
 ### Task 3️⃣: Reflect on Skill Development:
 
@@ -433,9 +432,7 @@ I also encountered a TypeError because I imported a module instead of a class. I
    
       -Resilience and Interpersonal Skills: How you worked through challenges and collaborated with peers in group                              activities.    
 
-     
-   
-            ******************************************************************    
+             ******************************************************************    
             
 
 ### 💡Critical thinking and analysis   
@@ -474,9 +471,13 @@ I also encountered a TypeError because I imported a module instead of a class. I
 ####  📚 How I conducted research and self-learning   
 
 *Several books have been considered in my reading. Then, I have applied the concepts in these in my report. Examples of these books are*:
--
--
--
+•       Sridhar, Indumathi and Hariharan (2023) for OOP principles.
+•      	Sarcar (2022) for SOLID and design patterns, which I used in Units 2, 3 and 4.
+•      	Nguyen (2022) for threading.
+•      	Baker (2022) for password rules.
+•      	Violetta (2023) and Clausen (2021) for refactoring.
+•      	Chow (2024) for layered architecture.
+•      	Tibi (2022) for TDD.
 
 *Following Dr Nawaz enquiry about the possibility of applying different tools to identify code smells, I reviewed the research work carried out by Lenarduzzi et al. (2020), which led me to install the SonarQube library in VS Code. In addition, a further useful resource that helped me to learn and fix errors was watching YouTube videos. These videos motivated me to understand the Adapter and Bridge patterns in Unit 4 as well as layered architecture in Unit 9, even when the examples were written in JavaScript.*    
 
@@ -509,12 +510,10 @@ I also encountered a TypeError because I imported a module instead of a class. I
 • *I found Séba's suggestions in Unit 7 particularly useful.
 To this end, Séba's suggestions have been incorporated and applied to my report to refine my code.*   
 
-*On the other hand, Donald has recommended the use of set_strategy() in Unit 5 and Unit 7. Séba identified the duplicate-username problem, and Donald advised logging failed login attempts. This feedback that I have obtained during the course demonstrated that collaboration and teamwork can significantly help in identifying problems that are difficult to observe in individual work.*
+*On the other hand, Donald has recommended the use of set_strategy() in Unit 5 and Unit 7. Séba identified the duplicate-username problem, and Donald advised logging failed login attempts. This feedback that I have obtained during the course demonstrated that collaboration and teamwork can significantly help in identifying problems that are difficult to observe in individual work.* 
 
 
-
-       ******--------------------------------------------------------------------------******  
-
+******----------------------------------------------------------------------------------------------******
 
 
 ### Task 4️⃣ : Professional Development Plan (PDP):
@@ -527,6 +526,8 @@ To this end, Séba's suggestions have been incorporated and applied to my report
          -Deeping expertise in AI-aware software architecture.
          -Advanced testing strategies for intelligent systems.
          -Ethical software engineering in AI-integrated applications.
+         
+          ****************************************************************** 
 
 
 ******-------------------------------------------------------------------------------------------------******  
