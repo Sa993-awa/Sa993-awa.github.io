@@ -38,7 +38,8 @@ tags: [Task1️⃣, Task2️⃣ ,Task3️⃣, Task4️⃣ ]
 
            -Link to Practical Work:   
 
-            -For each learning objectives, provide examples from your practical work (e.g., coding exercises, case studies,               Capstone Project) that demonstrate your understanding and application of the concepts.    
+            -For each learning objectives, provide examples from your practical work (e.g., coding exercises, case studies,               Capstone Project) that demonstrate your understanding and application of the concepts.  
+            
                   ******************************************************************    
                   
                   
