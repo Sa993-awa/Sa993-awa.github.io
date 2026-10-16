@@ -18,7 +18,7 @@ tags: [Task1️⃣, Task2️⃣ ,Task3️⃣, Task4️⃣ ]
 
       -Briefly extend your reflection to include:   
 
-        1.\ Advanced design pattterns (practical application):mention hands-on use of Strategy, Decorator, Visitor and                              Abstract Factory, explicitly linking them to:   
+        1. Advanced design pattterns (practical application):mention hands-on use of Strategy, Decorator, Visitor and                              Abstract Factory, explicitly linking them to:   
 
           -Runtime behavioural flexibility.   
 
@@ -26,7 +26,7 @@ tags: [Task1️⃣, Task2️⃣ ,Task3️⃣, Task4️⃣ ]
 
         -Scalability and extensibility in complex systems   
 
-      2.\ AI-orientated OO patterns (conceptual awareness): briefly note exposure to AI-inspired architectural patterns such                     as:   
+      2. AI-orientated OO patterns (conceptual awareness): briefly note exposure to AI-inspired architectural patterns such                     as:   
 
           - Model Registry (managing lifecycle.versionin of ML models).   
 
@@ -86,11 +86,11 @@ tags: [Task1️⃣, Task2️⃣ ,Task3️⃣, Task4️⃣ ]
 
     -Include Key Artefacts: Include the following artefacts developed during the module:   
 
-         1.\ Coding Exercises:   
+         1. Coding Exercises:   
 
              -Include your solutions to coding tasks (e.g., thread-safe code in Python, implementation of design patterns).  
 
-         2.\ Advanced Design Patterns (Practical): Add artefacts demonstrating:   
+         2. Advanced Design Patterns (Practical): Add artefacts demonstrating:   
 
              -Strategy Pattern: Interchangable algorithms (e.g., AI decision logic, pricing rules).   
   
@@ -104,7 +104,7 @@ tags: [Task1️⃣, Task2️⃣ ,Task3️⃣, Task4️⃣ ]
                   - Why the pattern was chosen.   
                   - How it improves maintainability, extensibility or testability.      
 
-         3.\ Testing - Mocking and AI-Driven Testing (Practical): Include:  
+         3. Testing - Mocking and AI-Driven Testing (Practical): Include:  
 
                 Use of mocking frameworks to:    
                    - Isolate classes.
@@ -117,13 +117,13 @@ tags: [Task1️⃣, Task2️⃣ ,Task3️⃣, Task4️⃣ ]
                  Frame testing as supporting OO quality, not replacing engineering judgement.   
               
 
-        4.\ Case Studies/Capstone Project: Briefly highlight:    
+        4. Case Studies/Capstone Project: Briefly highlight:    
              -How design patterns supported scalable architecture.      
              -How testing strategies ensured robustness and reliability.    
              -How AI-readiness was considered at design level (extensibility, abstraction, interfaces).   
         
 
-       5.\ Artefact Description (Critical Commentary): For each artefact, provide a brief description explaining:
+       5. Artefact Description (Critical Commentary): For each artefact, provide a brief description explaining:
             -The object.    
             -Orientated principles and techniques used.     
             -Challenges faced and how you overcame them.     
