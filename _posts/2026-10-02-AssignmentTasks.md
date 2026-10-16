@@ -46,12 +46,12 @@ tags: [Task1, Task2 ,Task3, Task4 ]
                   ******************************************************************    
                   
                   
-##### 1- Secure coding: 
+##### 1-Secure coding: 
 
 * Starting in Unit 7, I used bcrypt hashing to secure an authentication system, and I applied a password policy, input validation, and limited login attempts. peer`s feedback after testing my code helped me to add a username uniqueness check. After that, I used this in Unit 10 to apply TDD in my code.*
 
 
-#####  In advance Object Oriented Principles: 
+##### In advance Object Oriented Principles: 
  
  *In Unit 2, I refactored a simple online shopping system using the SOLID principles. As a result, the Order class depended on the abstract Payment Method and Discount Method classes rather than on specific implementations.*  
  
@@ -72,7 +72,7 @@ tags: [Task1, Task2 ,Task3, Task4 ]
  *I also applied Abstract Factory in ShopEase, which supported scalability by creating matching Web and Mobile UI components.*    
  
 
-##### 2- AI-Oriented Pattern:   
+##### 2-AI-Oriented Pattern:   
 
 *In my capstone project, I used a Model Registry to store different model versions and a Feature Store to manage reusable user features. Initially, the registry stored only the model’s name as text, so the output did not display any information about the model. I corrected this issue, and the output now shows the model and its version retrieved from the registry.*   
 
