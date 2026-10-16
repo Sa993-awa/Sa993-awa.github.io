@@ -453,7 +453,7 @@ I also encountered a TypeError because I imported a module instead of a class. I
 
 *When separate strategy classes are used, each rule is clearer and easier to evaluate. The work in Unit 11 also showed that the problems can be caused by black-box coupling. The original User Manager was tightly connected to the Email Service, which made it difficult to evaluate because it always attempted to send a real email. In ShopEase, the Recommendation Service depends on the Recommendation Model interface, allowing me to evaluate it with a mock model instead of using a real one.*       
 
- 	*The authors also recommend keeping auditable logs of AI decisions. This relates to Donald’s suggestion in Unit 7 to record failed login attempts. I now understand that OOD has a responsibility to create systems that are testable, transparent, and traceable.*  
+ *The authors also recommend keeping auditable logs of AI decisions. This relates to Donald’s suggestion in Unit 7 to record failed login attempts. I now understand that OOD has a responsibility to create systems that are testable, transparent, and traceable.*  
 
   
 ### 🧠 How I learned problem solving technique       
@@ -513,8 +513,20 @@ To this end, Séba's suggestions have been incorporated and applied to my report
 
 
 
+       ******--------------------------------------------------------------------------******  
 
 
+
+### Task 4️⃣ : Professional Development Plan (PDP):
+
+   -Identify Strengths and Areas for Improvement:
+     -Based on your performance in the module, identify your strengths (e.g., areas where you excelled) and areas for              improvement  (e.g., concepts or skills you found challenging).  
+ 
+   -Future Goals and Actions:   
+ 
+     -Deeping expertise in AI-aware software architecture.
+     -Advanced testing strategies for intelligent systems.
+     -Ethical software engineering in AI-integrated applications.
 
 
 ******-------------------------------------------------------------------------------------------------******  
