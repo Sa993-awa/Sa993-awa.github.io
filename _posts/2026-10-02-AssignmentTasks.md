@@ -6,7 +6,7 @@ categories: markdown
 tags: [Task1, Task2 ,Task3, Task4 ]
 ---   
 
-### Task1️⃣: Summarise Key Learning Outcomes  
+### Task 1️⃣: Summarise Key Learning Outcomes  
 
      -Reflect on Learning Objectives: Provide a summary of how you have achieved the module’s learning objectives:   
 
@@ -82,7 +82,7 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 
          
 
-### Task2️⃣ : Showcase Artefacts
+### Task 2️⃣ : Showcase Artefacts
 
 #### Include Key Artefacts: Include the following artefacts developed during the module:   
 
@@ -412,7 +412,7 @@ I also encountered a TypeError because I imported a module instead of a class. I
           
 
 
-### Task3️⃣: Reflect on Skill Development:
+### Task 3️⃣: Reflect on Skill Development:
 
       -Academic Skills: Reflect on how the module has helped you developed critical academic skills such as:   
 
