@@ -3,7 +3,7 @@ layout: post
 title: AssignmentTasks
 subtitle: Journey into advanced OOP concepts
 categories: markdown
-tags: [Task1, Task2 ,Task3, Task4 ]
+tags: [Task1️⃣, Task2️⃣ ,Task3️⃣, Task4️⃣ ]
 ---   
 
 ### Task 1️⃣: Summarise Key Learning Outcomes  
