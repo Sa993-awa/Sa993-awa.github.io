@@ -72,7 +72,7 @@ tags: [Task1, Task2 ,Task3, Task4 ]
  *I also applied Abstract Factory in ShopEase, which supported scalability by creating matching Web and Mobile UI components.*    
  
 
-##### 2-AI-Oriented Pattern 
+### 2-AI-Oriented Pattern 
 
 *In my capstone project, I used a Model Registry to store different model versions and a Feature Store to manage reusable user features. Initially, the registry stored only the model’s name as text, so the output did not display any information about the model. I corrected this issue, and the output now shows the model and its version retrieved from the registry.*   
 
@@ -436,7 +436,7 @@ I also encountered a TypeError because I imported a module instead of a class. I
    
             ****************************************************************** 
 
-### Critical thinking and analysis   
+### 💡Critical thinking and analysis   
 
 *This module taught me the importance of analysing a problem before writing code. In Unit 5, I identified three design problems in the original Payment Processor: it violated the Open/Closed Principle, was tightly coupled, and used a long if-elif chain. I solved these problems by applying the Strategy pattern.*   
 
@@ -445,7 +445,7 @@ I also encountered a TypeError because I imported a module instead of a class. I
 *I also learned to evaluate development tools carefully. SonarQube flagged some of my validation code even though it was logically correct. This supported the findings of Lenarduzzi et al. (2020), who stated that SonarQube rules do not always prevent software bugs.*   
 
 
-### The considerations of ethics in AI design   
+### ⚖️ The considerations of ethics in AI design   
 
 *Some groups may be treaded unfairly using the AI model, as explained in Aljawawdeh et al. (2024). The authors also explained that AI is based on black-box models, so that no one can know their decisions. To this end, in OOD, a subclass inherits the rules of its parent class. For example, my Car class inherited from the Vehicle class in Unit 1. This implies that if a parent class contains a biased rule, that bias could affect all of its subclasses.*      
 
@@ -454,7 +454,7 @@ I also encountered a TypeError because I imported a module instead of a class. I
  	*The authors also recommend keeping auditable logs of AI decisions. This relates to Donald’s suggestion in Unit 7 to record failed login attempts. I now understand that OOD has a responsibility to create systems that are testable, transparent, and traceable.*  
 
   
-### How I learned problem solving technique       
+### 🧠 How I learned problem solving technique       
 
 *I have addressed several programming problems and I have faced several coding challenges during my writing the program code. I have  analysed my reading error messages carefully and worked on resolving each error sequentially by solving one problem at a time. Examples are given bellow:   
 
@@ -469,7 +469,7 @@ I also encountered a TypeError because I imported a module instead of a class. I
 
 *To enhance maintainability, the code was also refactored. For example, in Unit 7, I refactored an insecure authentication system, and in Unit 8, I moved discount rules into separate strategy classes.*    
 
-###  How I conducted research and self-learning   
+###  📚 How I conducted research and self-learning   
 
 *Several books have been considered in my reading. Then, I have applied the concepts in these in my report. Examples of these books are*:
 -
@@ -482,18 +482,18 @@ I also encountered a TypeError because I imported a module instead of a class. I
 
 ### Employability Skills  
 
-#### Time management   
+#### 🕟Time management   
 
 *I managed my time by preparing for each seminar in advance. For example, I had already covered part of Unit 2 when the tutor asked whether we had heard of SOLID. I also added my work to my e-portfolio one unit at a time, which helped me build up to the capstone project step by step.*   
 
-#### Communication and literacy      
+#### 📝 Communication and literacy      
 
 *I expressed my perspectives by participating in four collaborative discussions. To this end, I posted my initial contributions, considered the feedback that I received, and provided my peers’ contributions based on the feedback that I received. In particular, I provided all the essential comments to all the feedback that I have received, including the feedback that I have obtained from Molly, Kaona, Séba, Reem, and Sopheaktra. I have also provided comments in reply to Donald and Dr Nawaz.*   
 
 *I have attended several seminars during my study course. During these seminars, I presented my work. These seminars include an explanation of concurrency in Seminar 6 and the Red-Green-Refactor cycle in Seminar 8. I have also obtained feedback from my tutor, who provided me with comments on Unit 6. Interestingly, I have received positive feedback from my tutor who observed that my report is well written and well structured. One of the comments was that my report contained clear sections. It is worth noting that I have also explored AI tools in order to assist me with proofreading and to check the grammar and spelling.*
 
 
-#### Resilience and interpersonal skills   
+#### 📈 Resilience and interpersonal skills   
 
 
 *Here I discuss how I work hard during my course to improve my resilience and interpersonal skills. I have resolved the errors that I have discovered and the errors that my tutor found without giving up. These errors include threading mistakes in Unit 6, the absence of bcrypt library installation in Unit 7, and the Model Registry problem in my capstone.*   
