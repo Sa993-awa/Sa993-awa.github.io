@@ -81,7 +81,10 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 *AI-ready and flexible solutions, Recommendation Service relies on a Recommendation Model interface; in this case, the model can be replaced without changing the service.*   
  
 
-         ******--------------------------------------------------------------------------******   
+         ******--------------------------------------------------------------------------******    
+
+
+         
 
 ### Task2 : Showcase Artefacts
 
@@ -135,7 +138,8 @@ tags: [Task1, Task2 ,Task3, Task4 ]
             -Managing abstraction vs over-engineering.     
     
     
-                *************************************************************************    
+                *************************************************************************  
+                
                 
 ### 1-Coding Exercises    
 
@@ -341,7 +345,7 @@ class MobileMessage(UIMessage):
 ```
 
 
-  ### 3-Testing: Mocking and AI-Assisted Tools
+### 3-Testing: Mocking and AI-Assisted Tools
 
 ### Mocking   
 
@@ -362,7 +366,7 @@ assert order.checkout(100) is True
 
 
 
-### *4/. Capstone Project:*    
+### *4. Capstone Project:*    
 
 #### Scalable architecture     
 
@@ -394,7 +398,7 @@ I also encountered a TypeError because I imported a module instead of a class. I
 
 ### 6- Reflection   
 
- #### Pattern selection trade-offs       
+#### Pattern selection trade-offs       
 
  *In Unit 8, named constants were simpler, but strategy was more extensible. I learned to choose a pattern only when the system is likely to grow. My initial evaluation was very helpful since it helped me to understand the effective way to start writing my own code.*
 
@@ -407,6 +411,7 @@ I also encountered a TypeError because I imported a module instead of a class. I
 *Balancing abstraction is done against over-engineering. To this end, I used an AI-oriented pattern in a simple way since this was considered as the first attempt to apply this pattern.*     
 
           ******--------------------------------------------------------------------------******    
+          
 
           
 
@@ -434,7 +439,8 @@ I also encountered a TypeError because I imported a module instead of a class. I
 
      
    
-            ****************************************************************** 
+            ******************************************************************    
+            
 
 ### 💡Critical thinking and analysis   
 
