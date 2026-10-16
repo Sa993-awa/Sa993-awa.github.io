@@ -437,26 +437,32 @@ I also encountered a TypeError because I imported a module instead of a class. I
 
 ##### Critical thinking and analysis.   
 *This module taught me the importance of analysing a problem before writing code. In Unit 5, I identified three design problems in the original Payment Processor: it violated the Open/Closed Principle, was tightly coupled, and used a long if-elif chain. I solved these problems by applying the Strategy pattern.*   
+
 *In Unit 8, I compared two different solutions. I found that using named constants improved readability but did not remove the long method, while the Strategy pattern applied the Open/Closed Principle more effectively. I also learned how to review my peers’ work critically. For example, I explained to Sopheaktra that using a dictionary of discount values did not fully implement the Strategy pattern.*   
 
 *I also learned to evaluate development tools carefully. SonarQube flagged some of my validation code even though it was logically correct. This supported the findings of Lenarduzzi et al. (2020), who stated that SonarQube rules do not always prevent software bugs.*   
 
 
 ##### The considerations of ethics in AI design.   
-*Some groups may be treaded unfairly using the AI model, as explained in Aljawawdeh et al. (2024). The authors also explained that AI is based on black-box models, so that no one can know their decisions. To this end, in OOD, a subclass inherits the rules of its parent class. For example, my Car class inherited from the Vehicle class in Unit 1. This implies that if a parent class contains a biased rule, that bias could affect all of its subclasses.*   
+*Some groups may be treaded unfairly using the AI model, as explained in Aljawawdeh et al. (2024). The authors also explained that AI is based on black-box models, so that no one can know their decisions. To this end, in OOD, a subclass inherits the rules of its parent class. For example, my Car class inherited from the Vehicle class in Unit 1. This implies that if a parent class contains a biased rule, that bias could affect all of its subclasses.*      
 
-*When separate strategy classes are used, each rule is clearer and easier to evaluate. The work in Unit 11 also showed that the problems can be caused by black-box coupling. The original User Manager was tightly connected to the Email Service, which made it difficult to evaluate because it always attempted to send a real email. In ShopEase, the Recommendation Service depends on the Recommendation Model interface, allowing me to evaluate it with a mock model instead of using a real one.*   
+*When separate strategy classes are used, each rule is clearer and easier to evaluate. The work in Unit 11 also showed that the problems can be caused by black-box coupling. The original User Manager was tightly connected to the Email Service, which made it difficult to evaluate because it always attempted to send a real email. In ShopEase, the Recommendation Service depends on the Recommendation Model interface, allowing me to evaluate it with a mock model instead of using a real one.*       
 
  	*The authors also recommend keeping auditable logs of AI decisions. This relates to Donald’s suggestion in Unit 7 to record failed login attempts. I now understand that OOD has a responsibility to create systems that are testable, transparent, and traceable.*  
 
   
 ##### How I learned problem solving technique.    
 
-*I have addressed several programming problems and I have faced several coding challenges during my writing the program code. I have  analysed my reading error messages carefully and worked on resolving each error sequentially by solving one problem at a time. Examples are given bellow: 
-• *In Unit 2, a NameError function was used in programm, which resulted from using Discount Method before defining it, which resulted in an incorrectly spelling Percentage Discount.*
-• *In Seminar 4, a Type Error occurred because I referred to a method without invoking it, which indicates omitting the parentheses needed to call the method and adding () fixed it.*      
-• *In Unit 6, I fixed a Type Error caused by importing the module rather than the class itself, and an Attribute Error caused by writing threading. (thread in lowercase) instead of the correct capitalisation.*   
+*I have addressed several programming problems and I have faced several coding challenges during my writing the program code. I have  analysed my reading error messages carefully and worked on resolving each error sequentially by solving one problem at a time. Examples are given bellow:   
+
+• *In Unit 2, a NameError function was used in programm, which resulted from using Discount Method before defining it, which resulted in an incorrectly spelling Percentage Discount.*   
+
+• *In Seminar 4, a Type Error occurred because I referred to a method without invoking it, which indicates omitting the parentheses needed to call the method and adding () fixed it.*    
+
+• *In Unit 6, I fixed a Type Error caused by importing the module rather than the class itself, and an Attribute Error caused by writing threading. (thread in lowercase) instead of the correct capitalisation.*    
+
 • *In my capstone, the program was executed successfully without errors but displaying no information about the AI model. Based on using an appropriate  AI tool, I found that Model Registry stored the model's name as text, and I amended this error and fix it.*   
+
 
 *To enhance maintainability, the code was also refactored. For example, in Unit 7, I refactored an insecure authentication system, and in Unit 8, I moved discount rules into separate strategy classes.*    
 
@@ -491,7 +497,9 @@ I also encountered a TypeError because I imported a module instead of a class. I
 *Even though there were errors, my peers' initial posts were highly beneficial because reading them motivated me to discover new ideas for writing my own code. Examples of these errors are provided below.*  
 
 • *Reem's Unit 8 post contrasted the simple approach evaluated against the Strategy pattern.*    
-• *Séba's Unit 5 post employed set_strategy() to switch payment methods at runtime.*     
+
+• *Séba's Unit 5 post employed set_strategy() to switch payment methods at runtime.*    
+
 • *I found Séba's suggestions in Unit 7 particularly useful.
 To this end, Séba's suggestions have been incorporated and applied to my report to refine my code.*   
 
