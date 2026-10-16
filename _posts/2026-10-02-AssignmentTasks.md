@@ -83,7 +83,7 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 
          ******--------------------------------------------------------------------------******   
 
- ### Task2 : Showcase Artefacts
+### Task2 : Showcase Artefacts
 
 #### Include Key Artefacts: Include the following artefacts developed during the module:   
 
@@ -142,7 +142,7 @@ tags: [Task1, Task2 ,Task3, Task4 ]
 #### Thread-safe banking system    
 
 
-  *1/. In unit 6 : Thread-safe banking system , each account has its own lock. preventing  deadlock by applying transfer acquire locks in consistent order.*    
+  *1\. In unit 6 : Thread-safe banking system , each account has its own lock. preventing  deadlock by applying transfer acquire locks in consistent order.*    
   
 
 ```Python
