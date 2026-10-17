@@ -530,7 +530,7 @@ To this end, Séba's suggestions have been incorporated and applied to my report
          
           ******************************************************************  
 
- ### Introduction  
+### Introduction  
  
 This report covers my Programming module and the Professional Development Plan (PDP) for Advanced Object-Oriented Design (OOP), to be completed in July 2026. To this end, the report is written based on Gibbs’ Reflective Cycle (Gibbs, 1988) and Bloom’s Revised Taxonomy (Anderson and Krathwohl, 2001). Using evidence from my e-portfolio, the report reflects on 12 units covering OOP programming principles, SOLID principles, design patterns, concurrency, secure coding, refactoring, software architecture, test-driven development, dependency injection, and the ShopEase capstone project. In addition, this report also focuses on reviewing my strengths as well as the issues and limitations that I faced during my progress, which need further improvement. I draw on feedback from my tutor and classmates. Considering this feedback, I present a clear plan to develop secure, ethical, and AI-integrated software.
 
