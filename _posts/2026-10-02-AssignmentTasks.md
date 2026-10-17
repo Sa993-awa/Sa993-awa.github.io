@@ -530,13 +530,14 @@ To this end, Séba's suggestions have been incorporated and applied to my report
          
           ******************************************************************  
 
- ### Introduction
+ ### Introduction  
+ 
 This report covers my Programming module and the Professional Development Plan (PDP) for Advanced Object-Oriented Design (OOP), to be completed in July 2026. To this end, the report is written based on Gibbs’ Reflective Cycle (Gibbs, 1988) and Bloom’s Revised Taxonomy (Anderson and Krathwohl, 2001). Using evidence from my e-portfolio, the report reflects on 12 units covering OOP programming principles, SOLID principles, design patterns, concurrency, secure coding, refactoring, software architecture, test-driven development, dependency injection, and the ShopEase capstone project. In addition, this report also focuses on reviewing my strengths as well as the issues and limitations that I faced during my progress, which need further improvement. I draw on feedback from my tutor and classmates. Considering this feedback, I present a clear plan to develop secure, ethical, and AI-integrated software.
 
 
 ## 1.Description   
 
- 	This includes the discussion about the experiment of the study that I have conducted. To this end, the four main principles of OOP programming are discussed in Unit 1. Then, the SOLID principles are discussed in Unit 2, which ended with developing a shopping system. Moreover, strategy design patterns, decorator, and factory methods are also implemented in Units 3 to 5.
+This includes the discussion about the experiment of the study that I have conducted. To this end, the four main principles of OOP programming are discussed in Unit 1. Then, the SOLID principles are discussed in Unit 2, which ended with developing a shopping system. Moreover, strategy design patterns, decorator, and factory methods are also implemented in Units 3 to 5.
   
 Within Unit 6, I created a thread-safe banking system, while in Unit 7, I enhanced an insecure authentication system through refactoring. Also, within Unit 8, I reviewed various code smells.  Then, I developed a layered architecture for an e-commerce system in Unit 9 and produced a secure e-learning platform by using test-driven development found in Unit 10. For Unit 11, I applied dependency injection. Finally, in Unit 12, I finished the ShopEase capstone project, which mixed six design patterns with a Model Registry, a feature database, and a recommendation tool.  
 
@@ -594,7 +595,7 @@ Creating tests for the Feature Store and Model Registry by building on my existi
 
 
 ### Goal 3: Ethical software engineering in AI-integrated applications.
-  	For this, add logging to the authentication and recommendation services so that their decisions can be recorded and reviewed later. This follows a suggestion from a peer in Unit 7. I will also keep the AI components behind clear interfaces to make their operation easier to understand and prevent them from becoming black boxes. To support this work, I will read further from Aljawawdeh et al. (2024) and Rehim and Mohan (2024).   
+For this, add logging to the authentication and recommendation services so that their decisions can be recorded and reviewed later. This follows a suggestion from a peer in Unit 7. I will also keep the AI components behind clear interfaces to make their operation easier to understand and prevent them from becoming black boxes. To support this work, I will read further from Aljawawdeh et al. (2024) and Rehim and Mohan (2024).   
 
 ### Goal 4: Independent coding and secure design.   
 
