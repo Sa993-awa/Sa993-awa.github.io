@@ -1,0 +1,134 @@
+1. Project Overview
+
+* In this project, I developed ShopEase, which is denoted as a small online shopping system. This is done using several design patterns such as object-oriented design and Dependency Injection to improve code flexibility and testability.
+
+
+2. Project Objectives
+
+* Develop a simple online shopping system.
+
+* Apply object-oriented programming principles.
+
+* An encapsulation throughout is applied
+
+* Implement six software design patterns.
+
+* Use dependency injection to improve flexibility and testability.
+
+* hashed passwords with bcrypt rather than storing them as plain text.
+
+* Develop and test a basic AI-oriented product recommendation system.
+
+* Evaluate the system using unit tests and mocking.
+
+
+3. Technologies Used
+
+* Python: Programming language.
+
+* object-oriented programming: abstract classes, inheritance, and encapsulation.
+
+* bcrypt: password hashing.
+
+* unittest.mock: unittest and mocking dependencies.
+
+
+4. Main Features
+
+* User registration and authentication: Registers users and verifies passwords.
+
+* Product management: Stores and restores product information.
+
+* Shopping cart and price calculation: Adding product and calculating the total.
+
+* Inventory management: Reduces stock after successful operations. 
+
+* Payment strategy: Supports interchangeable payment methods.
+
+* Notification and order processing: Notifies subscribed observers and manages order status.
+
+* Discount class: Applies discounts.
+
+* Shipping calculations : Applies shipping fees through decorators. 
+
+* Legacy system: Uses an adapter to connect an existing system to a newer interface. 
+
+* AI readiness: Applies a model registry, feature store , and recommendation service.
+
+* Unit testing and dependency mocking : Testing the core logic without real implementation.
+
+
+5. Software Design Patterns
+
+* Strategy pattern : makes the payment methods interchangeable.
+
+* Decorator Pattern: used to build an order price step by step.
+
+* Observer Pattern: used to notify multiple listeners when an order is confirmed.
+
+* Adapter Pattern: used to reuse an old LegacySystem.
+
+* Visitor Pattern: A useful operation change is used to add new product operations.
+
+* Abstract Factory Pattern: used to create matching Web and Mobile UI components.
+
+
+6. AI-Ready Architecture
+
+* ModelRegistry : Performed by storing the model’s name as text  instead of the real model object.
+
+* FeatureStore : Used to hold reusable user data.
+
+* RecommendationService: Created its own model without using the registry, so that the registry had no real purpose.
+
+* RecommendationModel: Defines the interface that recommendation models must implement.
+
+* SimpleRecommendationModel: Provides a basic rule based recommendation implementation.
+
+7. Security and Professional Ethics.
+
+
+* Passwords are hashed using bcrypt instead of being stored as plain text. Also, This project  explores AI readiness through a recommendation system that uses customer features to suggest products.
+
+8. Testing
+
+* For performance evaluation, unit tests are used to evaluate authentication, order notifications, and the recommendation service. And   it covers product caching, shopping cart calculations, payment processing, inventory  management and discount claculations.
+* The tests cover: 
+* Authentication System
+* Order Notifications
+* Recommendation Service
+* Shopping cart
+* Inventory management
+* Price calculations
+* Payment processing
+* Product caching
+
+
+
+9. Future Improvements
+
+* Add persistent database storage.
+
+* Improve privacy and security controls. 
+
+* Connect the model registry to the recommendation service.
+
+* Expanding the unit test to include negative price and short password.
+
+
+
+10. Project Status
+
+* This project denoted as a small online shopping system.  This is done using several design patterns such as object-oriented design and Dependency Injection.
+
+
+11. Requirements
+
+* Python 3
+* bcrypt 
+* pip install bcrypt 
+
+13. Run the application
+
+* Save the file on your Laptop or PC and run : python ShopeEsaeproject.py 
+* Save the unittest12 file on your device and run.
