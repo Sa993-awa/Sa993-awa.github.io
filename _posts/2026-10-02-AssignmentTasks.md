@@ -346,7 +346,7 @@ class MobileMessage(UIMessage):
 
 ### Mocking   
 
-*3/. I used a unittest.mocked to isolated classes and replace real dependencies:*
+*3. I used a unittest.mocked to isolated classes and replace real dependencies:*
 ```python 
 mock_payment = Mock(spec=PaymentStrategy)
 mock_payment.pay.return_value = True
