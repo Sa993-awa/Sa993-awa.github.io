@@ -43,7 +43,7 @@ tags: [Task1️⃣, Task2️⃣ ,Task3️⃣, Task4️⃣ ]
                   ******************************************************************    
                   
                   
-## 1-Secure coding
+## 1.Secure coding
 
 * Starting in Unit 7, I used bcrypt hashing to secure an authentication system, and I applied a password policy, input validation, and limited login attempts. peer`s feedback after testing my code helped me to add a username uniqueness check. After that, I used this in Unit 10 to apply TDD in my code.*
 
@@ -69,7 +69,7 @@ tags: [Task1️⃣, Task2️⃣ ,Task3️⃣, Task4️⃣ ]
  *I also applied Abstract Factory in ShopEase, which supported scalability by creating matching Web and Mobile UI components.*    
  
 
-## 2-AI-Oriented Pattern 
+## 2.AI-Oriented Pattern 
 
 *In my capstone project, I used a Model Registry to store different model versions and a Feature Store to manage reusable user features. Initially, the registry stored only the model’s name as text, so the output did not display any information about the model. I corrected this issue, and the output now shows the model and its version retrieved from the registry.*   
 
@@ -138,7 +138,7 @@ tags: [Task1️⃣, Task2️⃣ ,Task3️⃣, Task4️⃣ ]
               *************************************************************************  
                 
                 
-## 1-Coding Exercises    
+## 1.Coding Exercises    
 
 ### Thread-safe banking system    
 
@@ -210,7 +210,7 @@ class UserManager:
         self.notifier.send_notification(user, "Welcome!")
 ```   
 
-## 2-Advanced Design Patterns       
+## 2.Advanced Design Patterns       
 
 *In unit 5 and 12 , I chose Strategy to replace a long if elif chain that violates the Open/Close Principle, I added set_strategy() so the payment method can change during the runtime:*  
 
@@ -342,7 +342,7 @@ class MobileMessage(UIMessage):
 ```
 
 
-## 3-Testing: Mocking and AI-Assisted Tools
+## 3.Testing: Mocking and AI-Assisted Tools
 
 ### Mocking   
 
@@ -378,7 +378,7 @@ The application is organised using a layered architecture that separates respons
 
  *This includes the feature store and model registry, as well as the recommendation model Interface. This implies that the AI models can be replaced or added without rewriting the service.*   
 
-## 5-Critical Commentary   
+## 5.Critical Commentary   
 
 ### Thread-safe banking 
  *In Unit 6, I applied encapsulation, followed the Single Responsibility Principle, and used locks to protect the system. One of the main challenges was applying threads correctly and managing multiple threads accessing the same bank account. After reading Advanced Python Programming by Nguyen (2022), I learned how to use the start () and join() methods.   
@@ -393,7 +393,7 @@ I also encountered a TypeError because I imported a module instead of a class. I
 
 *ShopEase capstone (Unit 12). I used the four OOP principles, SOLID, Dependency Injection, and several patterns. My challenge was combining many patterns in one system. I overcame it by organising the code into layers and services.*    
 
-## 6-Reflection   
+## 6.Reflection   
 
 ### Pattern selection trade-offs       
 
