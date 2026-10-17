@@ -528,7 +528,89 @@ To this end, Séba's suggestions have been incorporated and applied to my report
          -Advanced testing strategies for intelligent systems.
          -Ethical software engineering in AI-integrated applications.
          
-          ****************************************************************** 
+          ******************************************************************  
+
+ ### Introduction
+This report covers my Programming module and the Professional Development Plan (PDP) for Advanced Object-Oriented Design (OOP), to be completed in July 2026. To this end, the report is written based on Gibbs’ Reflective Cycle (Gibbs, 1988) and Bloom’s Revised Taxonomy (Anderson and Krathwohl, 2001). Using evidence from my e-portfolio, the report reflects on 12 units covering OOP programming principles, SOLID principles, design patterns, concurrency, secure coding, refactoring, software architecture, test-driven development, dependency injection, and the ShopEase capstone project. In addition, this report also focuses on reviewing my strengths as well as the issues and limitations that I faced during my progress, which need further improvement. I draw on feedback from my tutor and classmates. Considering this feedback, I present a clear plan to develop secure, ethical, and AI-integrated software.
+
+
+## 1.Description   
+
+ 	This includes the discussion about the experiment of the study that I have conducted. To this end, the four main principles of OOP programming are discussed in Unit 1. Then, the SOLID principles are discussed in Unit 2, which ended with developing a shopping system. Moreover, strategy design patterns, decorator, and factory methods are also implemented in Units 3 to 5.
+  
+Within Unit 6, I created a thread-safe banking system, while in Unit 7, I enhanced an insecure authentication system through refactoring. Also, within Unit 8, I reviewed various code smells.  Then, I developed a layered architecture for an e-commerce system in Unit 9 and produced a secure e-learning platform by using test-driven development found in Unit 10. For Unit 11, I applied dependency injection. Finally, in Unit 12, I finished the ShopEase capstone project, which mixed six design patterns with a Model Registry, a feature database, and a recommendation tool.  
+
+
+## 2.Feelings: How I Felt  
+
+At the start of the module, I was filled with doubt, particularly when trying to grasp the difference between abstraction and encapsulation in Unit 1, as well as how to manage shared resources in Unit 6. Initially, some of the tutor's questions seemed unclear to me, especially regarding the purpose and implementation of __ init __. However, preparing for the seminars motivated me to delve deeper into each unit. In Unit 7, I came to realize that I had underestimated the potential security risks associated with a simple login system. As my learning progressed, my confidence grew, and I began to anticipate the seminars, as they allowed me to showcase my progress. 
+
+
+## 3.Evaluation: What Went Well and What Did Not   
+
+### What Went Well   
+
+•      	In Unit 6, I confidently implemented OOP and SOLID principles, and my tutor's feedback noted a strong display of the OOP concepts.   
+
+•      	I utilized bcrypt for hashing, established password policies and login restrictions, and I avoided race conditions and deadlocks by employing locks and a specific order of locking.   
+
+•      	I learned from other people: the way they structured their code in their initial discussion posts showed me how to write clean code, and the feedback they gave me helped to improve my work, for example by adding the set _strategy () function (Unit 5) and including a check to ensure the username was unique (Unit 7).   
+
+•      	Because of better time management, preparing for seminars enabled me to carry out my tasks earlier and more efficiently, and also gave me greater confidence when expressing my ideas and in learning from my mistakes and shortcomings. Moreover, the habit of regularly updating my e-portfolio allowed me to save time and speed up my progress.   
+
+
+### What went less well   
+
+•      The tests that I submitted for Unit 10 had typos and included incorrect assertions, and in Unit 11 the Email Service failed to implement the Notification Service interface.   
+
+•     In the capstone project, the Model Registry executed without errors; however, it retained only the model's name in text format. 	  
+
+•     Yet return to the unit materials when writing code.  
+
+•      While refining the code, the process of obtaining screenshots and subsequently uploading them to the e-portfolio presented organizational challenges, as had occurred in unit 10. Despite these procedural complexities, the platform learning experience was enhanced. Consequently, this experience facilitated the development of improved organizational practices and ensured that code improvements were implemented incrementally and systematically.	  
+
+## 4.Analysis: Why It Happened   
+
+I analyzed these deficiencies and distinguished between understanding a pattern and implementing it independently. Methods and patterns are comprehended thoroughly; however, insufficient practice has been conducted to enable their retrieval without external support. Testing errors indicate that production code was evaluated with greater scrutiny than test code. I assessed my verification method and concluded that I had checked whether the code ran, not whether it worked as intended. Tutor feedback from Unit 6 identified additional gaps regarding practical considerations, including scalability analysis, stress testing, transaction logging, database persistence, and the Shop Ease repositories continue to retain data in memory rather than persistent storage.   
+
+Peer engagement facilitated critical examination of one's own work. During Seminar 8, a colleague's presentation of test-driven development code and its connection to a previous implementation expanded perspective. In Unit 7, a peer observation prompted heightened attention to detail in secure code composition. I critically evaluated SonarQube’s warnings and judged some to be inaccurate, which aligns with Lenarduzzi et al. (2020). Educational videos provided a comprehensive understanding of object-oriented programming principles and their application to layered architecture and the organization of complex applications.   
+
+## 5.Conclusion: What I learned
+My strengths lie in OOP, SOLID principles, and secure and thread-safe code. My areas for improvement are independent coding, testing accuracy, databases and testing AI-dependent systems. I also learned that reaching a higher level of thinking does not mean the lower levels are secure.   
+
+This module enabled me to write more advanced and complex code, and my long-term goal is to explore the application of AI in code development. In five years, I want to design and create AI-integrated software that is secure, thoroughly tested, ethically responsible, and adaptable to new AI models.    
+
+
+
+## 6.Action Plan: What I Will Do Next   
+
+### Goal 1: Deepening expertise in AI-aware software architecture.   
+
+I will design the database persistence layer for ShopEase based on the feedback I received from my tutor in Unit 6. I will also continue developing the Model Registry and examine how the design could be expanded into a microservices architecture, as planned in Unit 9. For further reading, one can refer to Chow (2024).   
+
+### Goal 2: Advanced testing strategies for intelligent systems.   
+
+Creating tests for the Feature Store and Model Registry by building on my existing mock test for the Recommendation Model. I will also correct the tests from Units 10 and 11 and add stress tests to check how the system performs under pressure. In addition, I will apply evaluation-driven development to the earlier units, based on the ideas presented in Seminar 8. To improve my understanding, I will read further from Tibi (2022), Beck (2003), and Lenarduzzi et al. (2020).   
+
+
+### Goal 3: Ethical software engineering in AI-integrated applications.
+  	For this, add logging to the authentication and recommendation services so that their decisions can be recorded and reviewed later. This follows a suggestion from a peer in Unit 7. I will also keep the AI components behind clear interfaces to make their operation easier to understand and prevent them from becoming black boxes. To support this work, I will read further from Aljawawdeh et al. (2024) and Rehim and Mohan (2024).   
+
+### Goal 4: Independent coding and secure design.   
+
+I will rebuild the earlier exercises without using the unit materials. I will add standard payment validation and a time-based login lockout based on ideas shared by my peers. I will also investigate thread starvation, as planned in Unit 6.  Hence, an attempt will be made to develop a program that integrates the majority of concepts acquired while concurrently addressing the difficulties and stress factors encountered.
+
+
+
+
+
+
+
+
+
+
+
+          
 
 
 ******-------------------------------------------------------------------------------------------------******  
